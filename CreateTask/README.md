@@ -48,12 +48,12 @@ mathematical and/or logical concepts; and
 <u>Example A - Perfect</u>
 
 * [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-a-video.mp4)
-* [Written Response] (https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-a-written.pdf)
+* [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-a-written.pdf)
 
 <u>Example B - Perfect</u>
 
 * [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-b-video.mp4)
-* [Written Response] (https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-b-written.pdf)
+* [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-b-written.pdf)
 
 <u>Example C - Almost Perfect</u>
 
