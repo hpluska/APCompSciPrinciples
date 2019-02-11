@@ -66,7 +66,7 @@ mathematical and/or logical concepts; and
 
 * In this document, describe three potential programs that you would like to develop.  As you think of your program consider, 
 
-	- The time frame - this project is due February 28
+	- The time frame - this project is due March 1
 	- Your skill level 
 	- Your interests
 
