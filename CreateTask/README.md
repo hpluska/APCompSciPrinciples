@@ -70,7 +70,9 @@ mathematical and/or logical concepts; and
 	- Your skill level 
 	- Your interests
 
+## Help
 
+* Build a deck of cards [https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M](https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M)
 
 
 
