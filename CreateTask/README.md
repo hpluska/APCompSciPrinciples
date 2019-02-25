@@ -70,6 +70,10 @@ mathematical and/or logical concepts; and
 	- Your skill level 
 	- Your interests
 
+## Complete the create task reflection
+
+[CreateTaskReflection.pdf](CreateTaksReflection.pdf)
+
 ## Grade your project against the rubric
 
 [CreateTaskRubric.pdf](CreateTaskRubric.pdf)
