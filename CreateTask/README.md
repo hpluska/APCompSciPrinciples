@@ -70,6 +70,10 @@ mathematical and/or logical concepts; and
 	- Your skill level 
 	- Your interests
 
+## Grade your project against the rubric
+
+[CreateTaskRubric.pdf](CreateTaskRubric.pdf)
+
 ## Help
 
 * Build a deck of cards [https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M](https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M)
@@ -77,6 +81,8 @@ mathematical and/or logical concepts; and
 * Hangman start [https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg](https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg)
 
 * Button shuffler [https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk](https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk)
+
+
 
 
 
