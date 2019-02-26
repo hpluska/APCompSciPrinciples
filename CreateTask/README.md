@@ -72,7 +72,7 @@ mathematical and/or logical concepts; and
 
 ## Complete the create task reflection
 
-[CreateTaskReflection.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.pdf)
+[CreateTaskReflection.docx](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.docx)
 
 ## Grade your project against the rubric
 
