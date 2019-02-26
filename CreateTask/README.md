@@ -72,11 +72,11 @@ mathematical and/or logical concepts; and
 
 ## Complete the create task reflection
 
-[CreateTaskReflection.pdf](CreateTaksReflection.pdf)
+[CreateTaskReflection.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.pdf)
 
 ## Grade your project against the rubric
 
-[CreateTaskRubric.pdf](CreateTaskRubric.pdf)
+[CreateTaskRubric.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskRubric.pdf)
 
 ## Help
 
@@ -85,6 +85,8 @@ mathematical and/or logical concepts; and
 * Hangman start [https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg](https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg)
 
 * Button shuffler [https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk](https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk)
+
+* GameLab Boundary Example [https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg](https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg)
 
 
 
