@@ -74,6 +74,14 @@ mathematical and/or logical concepts; and
 
 [CreateTaskReflection.docx](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.docx)
 
+## Create a screen cast of your program
+
+Create a 30 - 60 second screen cast of your program or a significant feature of your program.  Your recording MUST be a screen cast, not a video recorded of your screen using your phone or another device. I recommend the screencastify.  
+
+https://www.screencastify.com
+
+DO NOT email the completed video to me.  You must upload this video to the same google drive folder as your completed create task reflection
+
 ## Grade your project against the rubric
 
 [CreateTaskRubric.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskRubric.pdf)
@@ -89,7 +97,6 @@ mathematical and/or logical concepts; and
 * GameLab Boundary Example [https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg](https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg)
 
 * Blisters Start [https://studio.code.org/projects/applab/qIyEkF7OtQUDlOMO_tZIJnD18rss7TlUaWZViyRzqeU](https://studio.code.org/projects/applab/qIyEkF7OtQUDlOMO_tZIJnD18rss7TlUaWZViyRzqeU)
-
 
 * Flying Saucer [https://studio.code.org/projects/applab/gNsaP4lrRBWL4lTFYSNq6tFtEou_pW_YkGYa5xjQf1Y](https://studio.code.org/projects/applab/gNsaP4lrRBWL4lTFYSNq6tFtEou_pW_YkGYa5xjQf1Y)
 
