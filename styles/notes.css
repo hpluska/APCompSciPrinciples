@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+	padding: 0;
+  	scroll-behavior: smooth;
+}
+
+#top{
+    top:0px;
+    position:absolute;
+    width:100%;
+    background-color:#5c636e;
+    color:#f8b500;
+
+}
+
+#top h1{
+    padding:10px;
+}
+
+#skills{
+    margin-top: 8%;
+    font-size: 2em;
+    color:#393e46;
+    border: solid 2px #f8b500;
+    border-radius: 20px;
+    padding:5px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    background-color: #caccce;
+}
+
+#skillsList{
+    list-style-type: none;
+}
+
+#skillsList li{
+    color: #f8b500;
+    font-weight:bold;
+}
+
+
+#skillsList li a{
+    text-decoration:none;
+    color:#393e46;
+}
+
+#skillsList li a:hover{
+    color: #5c636e;
+}
+
+.skills {
+    background-color:#393e46;
+    color:#f7f7f7;
+    width:100%;
+    padding:5px;
+    font-size:2em;
+    font-weight:bold;
+    margin:20px 20px 20px 0px;
+
+}
+
+.skillConceptsHeader{
+    font-weight:bold;
+    font-size:2em;
+    margin-left: 20px;
+}
+
+.skillConcepts{
+    margin:20px;
+    font-size:2em;
+}
+
+.skillTakeAway {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+ 
+  .skillTakeAway p {
+    display: inline;
+    font-family: 'Over the Rainbow', cursive;
+  }
+
+  .codeblock{
+    font-family: 'Source Code Pro', monospace;
+    background-color:lightgray;
+    border-radius:20px;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  .practice{
+      margin:10px;
+  }
+
+
+
+
+
