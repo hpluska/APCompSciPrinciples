@@ -116,7 +116,7 @@ h1{
 }
 
 #frame{
-    border:20px;
+    margin:20px;
 }
 /*
 li a:hover:not(.active) {
