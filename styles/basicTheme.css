@@ -114,6 +114,10 @@ h1{
 .contentList li a:hover{
     color: #5c636e;
 }
+
+#frame{
+    border:20px;
+}
 /*
 li a:hover:not(.active) {
     background-color: #f8b500;
