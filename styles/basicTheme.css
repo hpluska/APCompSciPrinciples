@@ -19,14 +19,14 @@ h1{
 
 }
 
-#notes, #projects, #tutorials, #contact{
+#tedTalks, #labs, #reviewsAndSolutions, #dailyTasks{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#f7f7f7;
 	padding-top:290px;
 }
 
-#reviewsAndSolutions, #dailyTasks, #labs, #home{
+#contact, #tutorials, #projects, #home, #ticketOutTheDoor{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#caccce;
@@ -86,7 +86,7 @@ h1{
 
 #navBar li {
     float: left;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #navBar li a {
