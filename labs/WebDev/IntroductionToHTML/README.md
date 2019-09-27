@@ -21,20 +21,8 @@ Inside the directory you just created, create a java file called HelloWorld.java
 
 ### Challenge 1
 
-- [ ] Write a program that prints an ascii art to the console.  Follow this link to get some inspiration, 
-
-[https://text-symbols.com/ascii-art/](https://text-symbols.com/ascii-art/)
-
-- [ ] At the top of the file, before your class declaration use comments to indicate the following 
-on separate lines
-
-	* Your name
-	* Course
-	* Date
-
-- [ ] Inside the main method of your program use block quotes to write a comment that describes the ascii art you created.
-
-- [ ] Once you have completed the above be sure to push your changes to your AP Computer Science A Repo to GitHub
+- [ ] Open the Index.html page you just created in your text editor. Then, implement the required code to make this an official html page.
+In the body section of the page, use a header tag (<h1></h1>) to indicate your name, use a paragraph tags <p></p> to tell me about yourself. 
 
 
 
