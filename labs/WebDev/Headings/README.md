@@ -14,12 +14,23 @@ In this lab you will use heading and paragraph tags to learn how to style conten
 	* If you haven't already done so, on your desktop create a new directory (aka, folder) called MyWebsite
 	* Inside your MyWebsite directory, create another directory called "Headings"
 	* Inside your IntroToHTML directory, create a new file called Index.html
-	* Implement the challenge below
+	* Implement the challenges 1 and 2 below
 	* Show your completed challenge to Ms. Pluska or her designated TA to receive credit for the individual portion of this lab
 
 ### Challenge 1
 
-- [ ] Copy and paste the text below into your Index.html file.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
+- [ ] Copy and paste the code below into your Index.html file
+
+```
+<!DOCTYPE>
+<html>
+<head>
+<title>Headings</title>
+<body>
+</body>
+</html>
+```
+- [ ] Copy and paste the text below into the body section of the code.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
 
 ```
 My Pets
@@ -44,9 +55,9 @@ Fish
 
 Hamster is the name of my fish.  I named him hamster because I wanted a hamster and not a fish, but I like him anyway.  He basically just swims around all day, but I still like him.
 ```
+### Challenge 2
 
-
-
+- [ ] Copy and paste the text below into your Index.html file, below the code you just.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
 
 
 
