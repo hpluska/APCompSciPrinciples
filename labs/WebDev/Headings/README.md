@@ -29,8 +29,11 @@ In this lab you will use heading and paragraph tags to learn how to style conten
 <body>
 </body>
 </html>
+
 ```
-- [ ] Copy and paste the text below into the body section of the code.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
+- [ ] In the body section create a new type 1 header.  Title the header "Challenge 1".
+
+- [ ] Copy and paste the text below the header you created above.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
 
 ```
 My Pets
@@ -57,7 +60,35 @@ Hamster is the name of my fish.  I named him hamster because I wanted a hamster 
 ```
 ### Challenge 2
 
-- [ ] Copy and paste the text below into your Index.html file, below the code you just.  Save this file and view the contents - notice everything is mashed up!  Using the paragraph and heading tags from this lesson to style the text to make it more readable. 
+- [ ] Below challenge 1, create a new type 1 header.  Title the header "Challenge 2".
+
+- [ ] Copy and paste the text below the header you created above.  Save this file and view the contents - notice it has errors!  Fix the errors to make it more readable. 
+
+```
+    <h1> My Hobbies </h3>>
+
+    <h2> Soccer /h2>
+    <h4> 5 years </h4>
+    <p>Soccer is an awesome sport because you get to
+    play on a team with all your friends. I love
+    challenge of learning new skills like headers
+    and corner kicks.
+
+    <h2>Baking<h6>
+    <h4> 10 years <h4>>
+    I love baking because you put together all 
+    these things that look simple and boring on 
+    their own to make something magical and 
+    delicious. I also love how baked things make 
+    people happy. Sharing things I bake might be 
+    the best part of it! <</p>
+
+    <h2>Drawing</h1>
+    <p>2 years</p> 
+    <<p>On the weekend sometimes I got outside and try
+    to draw what I see. My favorite thing to draw
+    are buildings. /p> 
+```
 
 
 
