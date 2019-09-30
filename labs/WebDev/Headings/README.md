@@ -1,19 +1,20 @@
-# Introduction to HTML
+# Headings
 
 ## Introduction
-In this lab you will learn how to create a simple html page
+In this lab you will use heading and paragraph tags to learn how to style content
 
 ## Your Tasks
 
-- [ ] Locate the "Introduction to HTML" lab guide [IntroductionToHTML.pdf](IntroductionToHTML.pdf)
+- [ ] Locate the "Headings" lab guide [Headings.pdf](Headings.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
 - [ ] Complete the individual portion of the lab
 
-	* On your desktop (or a location you can remember) create a new directory (aka, folder) called MyWebsite
-	* Inside your MyWebsite directory create another directory called "IntroToHTML"
-	* Inside your IntroToHTML directory, create a new file called Index.html
+	* If you haven't already done so, on your desktop create a new directory (aka, folder) called APCompSciPRepo
+	* Inside your APCompSciP directory, create another directory called "Labs"
+	* Inside your Labs directory
+Inside the directory you just created, create a java file called HelloWorld.java
 	* Implement the challenge below
 	* Once you have completed your challenge push your AP Computer Science A Repo to GitHub
 	* Show your completed challenge to Ms. Pluska to receive credit for the individual portion of this lab
