@@ -96,7 +96,6 @@ Dr Eleanor Gaye
 University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq
 ```
 
-- [ ] Using the text formatting tags from this lesson to style the text to make it look exactly like the one pictured here. 
 
 
 
