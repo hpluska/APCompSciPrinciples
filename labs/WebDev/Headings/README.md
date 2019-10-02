@@ -13,7 +13,7 @@ In this lab you will use heading and paragraph tags to learn how to style conten
 
 	* If you haven't already done so, on your desktop create a new directory (aka, folder) called MyWebsite
 	* Inside your MyWebsite directory, create another directory called "Headings"
-	* Inside your IntroToHTML directory, create a new file called Index.html
+	* Inside your Headings directory, create a new file called Index.html
 	* Implement the challenges 1 and 2 below
 	* Show your completed challenge to Ms. Pluska or her designated TA to receive credit for the individual portion of this lab
 
