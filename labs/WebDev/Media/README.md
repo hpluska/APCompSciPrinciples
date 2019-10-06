@@ -40,7 +40,7 @@ In this lab you will use the img and video tags to display images and videos on 
 	<h3>Dog images</h3> 
   	<img src="Images/Dog.jpg" alt="dog jumping"/> 
  
-  	<h3>Halloween videos</h3>
+  	<h3>Halloween</h3>
 
 	<h1>Videos</h1>
 
