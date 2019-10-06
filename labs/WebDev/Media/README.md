@@ -22,7 +22,7 @@ In this lab you will use the img and video tags to display images and videos on 
 		* [TimBurton.webp](TimBurton.webp) 
 	* Navigate to your Videos directory.  Download the following files and place them in this directory, 
 		* [Cat.mp4](Cat.mp4)
-	* Implement the challenges 1 and 2 below 
+	* Implement challenges 1 thru 3 below 
 	* Show your completed challenge to Ms. Pluska or her designated TA to receive credit for the individual portion of this lab
 
 ### Challenge 1
