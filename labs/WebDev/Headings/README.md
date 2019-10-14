@@ -22,7 +22,7 @@ In this lab you will use heading and paragraph tags to learn how to style conten
 - [ ] Copy and paste the code below into your Index.html file
 
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Headings</title>

@@ -22,7 +22,7 @@ In this lab you will use <a></a> tag to create internal and external links, and 
 - [ ] Copy and Paste the following code into your Index.html page, 
 
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Hyperlinks</title>

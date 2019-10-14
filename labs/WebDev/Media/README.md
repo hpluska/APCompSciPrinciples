@@ -30,7 +30,7 @@ In this lab you will use the img and video tags to display images and videos on 
 - [ ] Copy and paste the code below into your Index.html file
 
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Media</title>

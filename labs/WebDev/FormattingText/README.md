@@ -22,7 +22,7 @@ In this lab you will use common text tags to format text
 - [ ] Copy and paste the code below into your Index.html file
 
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Headings</title>

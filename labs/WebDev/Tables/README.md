@@ -20,7 +20,7 @@ In this lab you will use the table, th, and td tags to create tables.  Additiona
 - [ ] Copy and paste the code below into your Index.html file
 
 ```
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Tables</title>
