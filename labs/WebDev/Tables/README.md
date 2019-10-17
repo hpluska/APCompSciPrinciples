@@ -14,6 +14,8 @@ In this lab you will use the table, th, and td tags to create tables.  Additiona
 	* If you haven't already done so, on your desktop create a new directory (aka, folder) called MyWebsite
 	* Inside your MyWebsite directory, create another directory called "Tables"
 	* Inside your Tables directory, create a new file called Index.html
+	* Implement challenge 1 below
+	* Show your completed challenge to Ms. Pluska or her designated TA to receive credit for the individual portion of this lab
 
 ### Challenge 1
 
