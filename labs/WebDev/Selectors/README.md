@@ -18,8 +18,8 @@ In this lab you will apply CSS selectors to style pages
 
 - [ ] In your main website directory, create a directory called _Selectors_.  Inside this directory add the following files, 
 
-	* [Index.html](Index.html)
-	* [Styles.css](Styles.css)
+	* [Selectors/Index.html](Selectors/Index.html)
+	* [Selectors/Styles.css](Selectors/Styles.css)
 
 - [ ] Complete the following
 
