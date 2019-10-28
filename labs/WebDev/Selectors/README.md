@@ -43,7 +43,7 @@ In this lab you will apply CSS selectors to style pages
 4. Now, let’s change the bullet points of the ingredient list to squares instead of circles. 
 
 	- Start be a writing a class attribute in the <ul> tag called _ingredients_.
-	- Navigate to Styles.css and add an  _ingredients_ selector.  Inside of its curly braces, write: list-style: square;  (HINT, <li></li> is a nested element)
+	- Navigate to Styles.css and add an  _ingredients_ selector.  Inside of its curly braces, write: list-style-type: square;  (HINT, <li></li> is a nested element)
 
 5. Next let’s make the time for each preparation step appear gray. 
 
