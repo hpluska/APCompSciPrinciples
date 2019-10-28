@@ -31,25 +31,33 @@ In this lab you will apply CSS selectors to style pages
 
 2.  The font size of the recipe description should be larger. 
 
-	- In Styles.css, write a CSS selector for the .description class. Within its curly braces, add the following CSS: font-size: 20px;
+	- Locate the <h1></h1> tag at the top of the page and add a class attribute called _description_ to this tag
+	- In Styles.css, write a CSS selector for the .description class. Within its curly braces, add the following CSS: font-size: 3em;
 
-3. Next, let’s style the cooking time. The element on about line 15 of Index.html has an id attribute of cook-time. 
+3. Next, let’s style the cooking time. 
 
-	- Navigate to Styles.css and add a cook-time ID selector. Inside of its curly braces, write: font-weight: bold;
+	- Locate the <p></p> tags that enclose _Total time: 45 minutes_. To this tag add an id attribute called _cook-time_.
+
+	- Navigate to Styles.css and add a _cook-time_ id selector. Inside of its curly braces, write: font-weight: bold;
 
 4. Now, let’s change the bullet points of the ingredient list to squares instead of circles. 
 
-	- Start by writing a selector for the li elements inside of the .ingredients element.
-Then, write this inside of its curly braces:  list-style: square;
-
+	- Start be a writing a class attribute in the <ul> tag called _ingredients_.
+	- Navigate to Styles.css and add an  _ingredients_ selector.  Inside of its curly braces, write: list-style: square;  (HINT, <li></li> is a nested element)
 
 5. Next let’s make the time for each preparation step appear gray. 
 
-	- In Styles.css, write a selector for p elements that also have a class of .time.  Then, inside of this selector’s curly braces, write: color: gray;
+	- Locate each time preparation step, <p>Time: 40 minutes</p>, <p>Time: 4 minutes</p>, <p>Time: 1 minute</p>.  To each of these add a class attribute called _time_
+
+	- In Styles.css, add the _time_ selector.  Then, inside of this selector’s curly braces, write: color: gray;
 
 6. At the bottom of the page, there’s a link to the full recipe. Let’s make the link a different color. 
 
-	- Notice that in Index.html, on about line 42, there is a p element with a class of citation, then an a element inside of it with a class of external-link. 
+	- Locate the link, <a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank">here</a>.  Add an _external-link_ selector to the _a_ tag.
+
+
+
+there is a p element with a class of citation, then an a element inside of it with a class of external-link. 
 	- Navigate to Styles.css and write a selector using external-link class.  Then, add this code inside of the selector’s curly braces: color: SeaGreen;
 
 7. Finally let’s make the font Helvetica instead of the default Times New Roman. 
