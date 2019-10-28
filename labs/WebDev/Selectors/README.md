@@ -56,7 +56,8 @@ In this lab you will apply CSS selectors to style pages
 	- Locate the following links, 
 ```
 <a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank">here</a> 
-
+```
+```
 <a href="youRecipe.html" target="_blank"> here </a>
 ```
 	- Add an _external-link_ selector to each _a_ tag.
