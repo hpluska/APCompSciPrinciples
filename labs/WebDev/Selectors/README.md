@@ -20,6 +20,7 @@ In this lab you will apply CSS selectors to style pages
 
 	* [Selectors/Index.html](Selectors/Index.html)
 	* [Selectors/Styles.css](Selectors/Styles.css)
+	* [Selectors/salad.jpg](Selectors/salad.jpg)
 
 - [ ] Complete the following
 
