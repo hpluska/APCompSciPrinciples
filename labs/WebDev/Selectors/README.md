@@ -53,26 +53,40 @@ In this lab you will apply CSS selectors to style pages
 
 6. At the bottom of the page, there’s a link to the full recipe. Let’s make the link a different color. 
 
-	- Locate the link, <a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank">here</a>.  Add an _external-link_ selector to the _a_ tag.
+	- Locate the following links, 
+```
+<a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank">here</a> 
+
+<a href="youRecipe.html" target="_blank"> here </a>
+```
+	- Add an _external-link_ selector to each _a_ tag.
+	- Navigate to Styles.css and write a selector for the _external-link_ class.  Then, add this code inside of the selector’s curly braces: color: SeaGreen;
+
+7. Let’s make the font Helvetica instead of the default Times New Roman. 
+
+	- Instead of writing multiple selectors to apply the font-family property to all elements on the page, in the Styles.css file write a selector that applies a font-family attribute to all text at once. This can be done using the _body_ tag
+	- Then, add this code inside of the body selector’s curly braces:
+ font-family: Helvetica;
+
+8. Now, let's change the background color.  
+
+	- Navigate to [https://www.google.com/search?q=hex+color+picker&oq=hex+color&aqs=chrome.0.0j69i57j0l4.10176j0j1&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=hex+color+picker&oq=hex+color&aqs=chrome.0.0j69i57j0l4.10176j0j1&sourceid=chrome&ie=UTF-8)
+	- Select a color, then note the HEX value (For example, #e6e9f2).  
+	- Return to the body selector you wrote previously. Add this to the body selector's curly braces:  background-color:#e6e9f2;
+
+9. Finally, let's add a "fancy font".  
+
+	- At the top of the page there is text that reads "Check out my fancy font".  Add an id attribute called _fancyFont_ to the <h1 class = "description">Kale Caesar Quinoa Salad with Roasted Chicken</h1> tag.  
+	- Delete the line <p id="fancyFont">Check out my fancy font</p>
+
+10. Create 2 new web pages pages in the same web directory.  Write two new recipes.  
+
+	- Each recipe should have the same format as the one you just created.   
+	- Each recipe should include a picture
+
+11. In the header section of each page, link the style sheet you just created.
 
 
-
-there is a p element with a class of citation, then an a element inside of it with a class of external-link. 
-	- Navigate to Styles.css and write a selector using external-link class.  Then, add this code inside of the selector’s curly braces: color: SeaGreen;
-
-7. Finally let’s make the font Helvetica instead of the default Times New Roman. 
-
-	- Instead of writing multiple selectors to apply the font-family property, write a selector that applies a font-family attribute to all text at once. The selector should target the h1, h2, p, and li elements.
-	- To change their font, include this line of code inside the curly braces: font-family: Helvetica;
-
-8. Create a 3 new pages in your web directory.  On each page you will write a new recipe.
-
-9. In the header section of each page, link the style sheet you just created.
-
-10. Complete the pages with three new recipes. Each page, 
-
-	- Must include a picture of the recipe
-	- A bulleted list of instuctions
 
 
 
