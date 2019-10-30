@@ -1,11 +1,11 @@
-# Selectors
+# Box Model
 
 ## Introduction
-In this lab you will apply CSS selectors to style pages
+In this lab you will learn about the box model and how the associated properties can be applied to style HTML content. Then, you will follow step-by-step instructions to fix a fictional restaurant's website. All of the HTML and most of the CSS is intact, however, the box model properties have yet to be set.
 
 ## Your Tasks
 
-- [ ] Locate the "Selectors" lab guide [Selectors.pdf](Selectors.pdf)
+- [ ] Locate the "BoxModel" lab guide [BoxModel.pdf](BoxModel.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
@@ -16,77 +16,45 @@ In this lab you will apply CSS selectors to style pages
 
 ### Challenge 1
 
-- [ ] In your main website directory, create a directory called _Selectors_.  Inside this directory add the following files, 
+- [ ] In your main website directory, create a directory called _BoxModel_.  Inside this directory add the following files, 
 
-	* [Selectors/Index.html](Selectors/Index.html)
-	* [Selectors/Styles.css](Selectors/Styles.css)
-	* [Selectors/salad.jpg](Selectors/salad.jpg)
+	* [BoxModel/Index.html](BoxModel/Index.html)
+	* [BoxModel/Styles.css](BoxModel/Styles.css)
+	* [BoxModel/logo.jpg](BoxModel/logo.svg)
+	* [BoxModel/foodlogo.png](BoxModel/foodlogo.png)
+	* [BoxModel/burger.jpg](BoxModel/burger.jpg)
 
 - [ ] Complete the following
 
-1.  Take a look at the site's structure in Index.html.
+1.  Add width values to the following elements:
 
-	- Start by making the image at the top of the page a little smaller. Navigate to style.css and write a CSS selector for the img tag.  Within its curly braces, write: height: 150px;
-	- Try experimenting with the 150 number and observing the results.
+	-  Set the width of images in `nav` to 180 pixels.
+	-  Set the width of elements with class `button` to 200 pixels.
+	-  Set the width of `ul.nutrition li` elements to 200 pixels.
 
-2.  The font size of the recipe description should be larger. 
+2.  Add height values to the following elements:
 
-	- Locate the <h1></h1> tag at the top of the page and add a class attribute called _description_ to this tag
-	- In Styles.css, write a CSS selector for the .description class. Within its curly braces, add the following CSS: font-size: 3em;
+	-  Set the height of elements with class `content` to 500 pixels.
+	-  Set the height of elements with class `header` to 320 pixels.
 
-3. Next, let’s style the cooking time. 
+3. Add padding values to the following elements:
 
-	- Locate the <p></p> tags that enclose _Total time: 45 minutes_. To this tag add an id attribute called _cook-time_.
+	-  Set the padding of `.header h1` elements to 20 pixels.
+	-  Set the padding of elements with class `button` to 20 pixels.
+	-  Set the padding of `ul.nutrition` elements to 40 pixels.
+	-  Set the padding of `ul.nutrition li` elements to 10 pixels on the top and bottom and 20 pixels on the left and right.
 
-	- Navigate to Styles.css and add a _cook-time_ id selector. Inside of its curly braces, write: font-weight: bold;
+4. Add margin values to the following elements:
 
-4. Now, let’s change the bullet points of the ingredient list to squares instead of circles. 
+	-  Set the margin of `nav span` elements to 10 pixels of top and bottom margins and 0 pixels of left and right margins.
+	-  Set the margin of `nav img` elements to 0 pixels of top and bottom margins, and the left and right margins to set automatically.
+	-  Set the margin of elements with class `content` to 10 pixels of vertical margins, and the horizontal margins to set automatically.
+	-  Set `.header h1` elements to have 0 pixels of vertical margins, and the horizontal margins to set automatically.
+	-  Set elements of class `button` to 40 pixels of vertical margins, and the horizontal margins to set automatically.
+	-  Set `ul.nutrition li` elements to 3 pixels of bottom margin.
+	-  Set `.content .body` elements to have zero pixels of vertical margin, and the horizontal margins to set automatically (i.e. centered on the page).
 
-	- Start be a writing a class attribute in the <ul> tag called _ingredients_.
-	- Navigate to Styles.css and add an  _ingredients_ selector.  Inside of its curly braces, write: list-style-type: square;  (HINT, <li></li> is a nested element)
-
-5. Next let’s make the time for each preparation step appear gray. 
-
-	- Locate each time preparation step, <p>Time: 40 minutes</p>, <p>Time: 4 minutes</p>, <p>Time: 1 minute</p>.  To each of these add a class attribute called _time_
-
-	- In Styles.css, add the _time_ selector.  Then, inside of this selector’s curly braces, write: color: gray;
-
-6. At the bottom of the page, there’s a link to the full recipe. Let’s make the link a different color. 
-
-	- Locate the following links, 
-```
-<a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank">here</a> 
-```
-```
-<a href="youRecipe.html" target="_blank"> here </a>
-```
-	- Add an _external-link_ selector to each _a_ tag.
-	- Navigate to Styles.css and write a selector for the _external-link_ class.  Then, add this code inside of the selector’s curly braces: color: SeaGreen;
-
-7. Let’s make the font Helvetica instead of the default Times New Roman. 
-
-	- Instead of writing multiple selectors to apply the font-family property to all elements on the page, in the Styles.css file write a selector that applies a font-family attribute to all text at once. This can be done using the _body_ tag
-	- Then, add this code inside of the body selector’s curly braces:
- font-family: Helvetica;
-
-8. Now, let's change the background color.  
-
-	- Navigate to [https://www.google.com/search?q=hex+color+picker&oq=hex+color&aqs=chrome.0.0j69i57j0l4.10176j0j1&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=hex+color+picker&oq=hex+color&aqs=chrome.0.0j69i57j0l4.10176j0j1&sourceid=chrome&ie=UTF-8)
-	- Select a color, then note the HEX value (For example, #e6e9f2).  
-	- Return to the body selector you wrote previously. Add this to the body selector's curly braces:  background-color:#e6e9f2;
-
-9. Finally, let's add a "fancy font".  
-
-	- At the top of the page there is text that reads "Check out my fancy font".  Add an id attribute called _fancyFont_ to the <h1 class = "description">Kale Caesar Quinoa Salad with Roasted Chicken</h1> tag.  
-	- Delete the line <p id="fancyFont">Check out my fancy font</p>
-
-10. Create 2 new web pages pages in the same web directory.  Write two new recipes.  
-
-	- Each recipe should have the same format as the one you just created.   
-	- Each recipe should include a picture
-
-11. In the header section of each page, link the style sheet you just created.
-
+5. Give elements with the class `button` a 1 pixel, solid blue border.
 
 
 
