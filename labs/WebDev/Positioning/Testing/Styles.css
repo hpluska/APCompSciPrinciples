@@ -1,0 +1,61 @@
+.one {
+     background-color: purple;
+     width:100px;
+     height:100px;
+     float: right;
+}
+.two {
+     background-color: yellow;
+     width:100px;
+     height:100px;
+     float: right;
+}
+.three {
+     background-color: gray;
+     width:100px;
+     height:100px;
+     float: right;
+}
+
+.nav li{
+display: inline-block;
+background-color: lightgray;
+border: thick ridge white;
+padding:1em 2em;
+font-family: "Courier New";
+color: purple;
+font-weight:bold;
+}
+
+.nav2 li{
+float:left;
+list-style-type:none;
+background-color: lightgray;
+border: thick ridge white;
+padding:1em 2em;
+font-family: "Courier New";
+color: purple;
+font-weight:bold;
+}
+
+.box-top { 
+    background-color: Aquamarine;
+    position: relative; 
+    z-index: 2; 
+    height:100px;
+    width:100px;
+} 
+.box-bottom { 
+    background-color: DeepSkyBlue;
+    position: absolute; 
+    top: 20px; 
+    left: 50px; 
+    z-index: 1; 
+    height:100px;
+    width:100px;
+}
+
+
+
+
+
