@@ -19,8 +19,8 @@ The site has some style rules to begin with. You will improve the layout and pos
 
 - [ ] In your main website directory, create a directory called _BoxModel_.  Inside this directory add the following files, 
 
-	* [Positioning/Index.html](Positioning/Index.html)
-	* [Positioning/Styles.css](Positioning/Styles.css)
+	* [Positioning/index.html](Positioning/index.html)
+	* [Positioning/style.css](Positioning/style.css)
 	* [Positioning/bg.jpg](Positioning/bg.jpg)
 
 - [ ] Complete the following
