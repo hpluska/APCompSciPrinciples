@@ -1,0 +1,70 @@
+.one {
+     background-color: hsl(60, 100%, 50%);
+     width:100px;
+     height:100px;
+     position:absolute;
+	top:1em;
+	left:1em;
+line-height:5em;
+text-align:center;
+}
+.two {
+     background-color: hsl(120, 100%, 50%, .5);
+     width:100px;
+     height:100px;
+     position:absolute;
+	top:2em;
+	left:2em;
+text-align:center;
+line-height:5em;
+}
+.three {
+         background-color: hsla(300, 100%, 50%, .5);
+     width:100px;
+     height:100px;
+     position:absolute;
+	top:3em;
+	left:3em;
+text-align:right;
+}
+
+.nav li{
+display: inline-block;
+background-color: lightgray;
+border: thick ridge white;
+padding:1em 2em;
+font-family: "Courier New";
+color: purple;
+font-weight:bold;
+}
+
+.nav2 li{
+float:left;
+list-style-type:none;
+background-color: lightgray;
+border: thick ridge white;
+padding:1em 2em;
+font-family: "Courier New";
+color: purple;
+font-weight:bold;
+}
+
+.box-top { 
+    background-color: Aquamarine;
+
+    height:100px;
+    width:100px;
+
+} 
+.box-bottom { 
+    background-color: DeepSkyBlue;
+
+
+    height:100px;
+    width:100px;
+}
+
+
+
+
+

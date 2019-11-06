@@ -17,7 +17,7 @@ The site has some style rules to begin with. You will improve the layout and pos
 
 ### Challenge 1
 
-- [ ] In your main website directory, create a directory called _BoxModel_.  Inside this directory add the following files, 
+- [ ] In your main website directory, create a directory called _Positioning_.  Inside this directory add the following files, 
 
 	* [Positioning/index.html](Positioning/index.html)
 	* [Positioning/style.css](Positioning/style.css)
