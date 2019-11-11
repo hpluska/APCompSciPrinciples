@@ -23,7 +23,7 @@ In this lab you will learn how to write your first javascript program
 
 - [ ] Write a program that prints an ascii art to the console.  Follow this link to get some inspiration, 
 
-[https://text-symbols.com/ascii-art/](https://text-symbols.com/ascii-art/)
+[https://www.asciiart.eu/](https://www.asciiart.eu/)
 
 - [ ] At the top of the file, before your class declaration use comments to indicate the following 
 on separate lines
