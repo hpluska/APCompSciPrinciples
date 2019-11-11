@@ -5,7 +5,7 @@ In this lab you will learn how to write your first javascript program
 
 ## Your Tasks
 
-- [ ] Locate the "MyFirstJavascriptProgram" lab guide [MyFirstJavascriptProgram.pdf](MyFirstJavaProgram.pdf)
+- [ ] Locate the "MyFirstJavascriptProgram" lab guide [MyFirstJavascriptProgram.pdf](MyFirstJavascriptProgram.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
