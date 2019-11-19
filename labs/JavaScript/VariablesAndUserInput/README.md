@@ -5,7 +5,7 @@ In the lab you will apple the var key word to create variables.  You will also a
 
 ## Your Tasks
 
-- [ ] Locate the "VariablesAndUserInput lab guide [VariablesAndUserInput.pdf](VariablesAndUserInput.pdf)
+- [ ] Locate the "VariablesAndUserInput" lab guide [VariablesAndUserInput.pdf](VariablesAndUserInput.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
@@ -26,8 +26,8 @@ In the lab you will apple the var key word to create variables.  You will also a
 </html>
 
 ```
-	* Implement the challenge below
-	* Show your completed challenge to Ms. Pluska to receive credit for the individual portion of this lab
+	* Implement the challenges below
+	* Show your completed challenges to Ms. Pluska to receive credit for the individual portion of this lab
 
 ### Challenge 1
 
