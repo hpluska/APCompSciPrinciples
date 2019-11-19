@@ -19,7 +19,6 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 		- [Stubs/burger.jpg](Stubs/burger.jpg)
 		- [Stubs/foodlogo.png](Stubs/foodlogo.png)
 		- [Stubs/logo.svg](Stubs/logo.svg)
-		- [Stubs](Stubs)
 	* Implement the challenges below
 	* Show your completed challenges to Ms. Pluska to receive credit for the individual portion of this lab
 
