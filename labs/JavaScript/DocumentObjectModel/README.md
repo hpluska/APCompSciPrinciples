@@ -1,7 +1,7 @@
 # Document Object Model
 
 ## Introduction
-In this lab you will apply the javascript to the DOM to create a customizable webpage
+In this lab you will apply javascript to the DOM to create a customizable webpage
 
 ## Your Tasks
 
