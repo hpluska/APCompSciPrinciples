@@ -31,16 +31,30 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 - [ ] Explore the Index.html page you downloaded.  Then, in the App.js file write code that will enable a user to customize your page - see the example I have provided in this file.  For every element specified with an _id_ you must prompt the user for a style or text, then use this information to customize the page.  Feel free to get as creative as you like!  Below is a list of all the id elements you must modify, 
 
 	* body
+		- use .backgroundColor change the background color
 	* id = "foodLogoImage"
-	* id = "description"
-	* id = "nav"
+		- use .textAlign to center
+	* id = "description" 
+		- use .innerHTML to add a description
+	* id = "nav" 
+		- use .borderColor to change the border color
+		- use .borderStyle to change the type of border 
 	* id = "logoImage"
+		- use .margin to create a margin
 	* id = "content"
+		- use .backgroundColor to change the background color
 	* id = "header"
-	* id = "burgerImage"
-	* id = "main"
-	* id = "button"
-	* id = "nutrition"
+		- use .backgroundColor to change the background color
+	* id = "burgerImage" 
+		- use .width to change the width
+		- use .height to change the height
+	* id = "main" - change the border
+		- use .borderWidth to change the width of the border
+		- use .borderColor to change the border color
+	* id = "button" - change the alignment
+		- use .padding to change the padding
+	* id = "nutrition" change the alignment
+		- use margin to change the alignment
 
 
 
