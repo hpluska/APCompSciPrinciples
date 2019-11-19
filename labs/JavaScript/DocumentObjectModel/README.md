@@ -33,7 +33,7 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 	* body
 		- [ ] use .backgroundColor change the background color
 	* id = "foodLogoImage"
-		- [ ] use .textAlign to center
+		- [ ] use .textAlign align the text
 	* id = "description" 
 		- [ ] use .innerHTML to add a description
 	* id = "nav" 
