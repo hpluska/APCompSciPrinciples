@@ -31,30 +31,53 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 - [ ] Explore the Index.html page you downloaded.  Then, in the App.js file write code that will enable a user to customize your page - see the example I have provided in this file.  For every element specified with an _id_ you must prompt the user for a style or text, then use this information to customize the page.  Below is a list of all the id elements you must modify with user input, but feel free to get as creative as you like!
 
 	* body
-		- [ ] use .backgroundColor change the background color
+		- prompt the user for a color
+[ ] 		- use .backgroundColor change the background color
 	* id = "foodLogoImage"
-		- [ ] use .textAlign align the text
+		- prompt the user for a width in px
+		- use .width to change the width
+		- prompt the user for a distance from the left margin as a %
+		- use .marginLeft to set the distance from the left
+	* id = "logoImage" 
+		- prompt the user for a width in px
+		- use .width to change the width
+		- prompt the user for a distance from the left margin as a %
+		- use . marginLeft to set the distance from the left
 	* id = "description" 
-		- [ ] use .innerHTML to add a description
-	* id = "nav" 
-		- [ ] use .borderColor to change the border color
-		- [ ] use .borderStyle to change the type of border 
-	* id = "logoImage"
-		- [ ]use .margin to create a margin
+		- prompt the user for a description of a bacon burger
+		- use .innerHTML to set the description
+	* id = "nav"
+		- prompt the user for a border color
+		- use .borderColor to set the color of the border
+		- prompt the user for a type of border (dashed, dotted, solid, etc)
+		- user .borderStyle to set the border style
 	* id = "content"
-		- [ ]use .backgroundColor to change the background color
+		- prompt the user for a background color
+		- use backgroundColor to set the background color
 	* id = "header"
-		- [ ]use .backgroundColor to change the background color
+		- prompt the user for a background color
+		- use backgroundColor to set the background color
 	* id = "burgerImage" 
-		- [ ]use .width to change the width
-		- [ ]use .height to change the height
+		- prompt the user for the size of the image in px
+		- use .width to change the width
 	* id = "main" - change the border
-		- [ ]use .borderWidth to change the width of the border
-		- [ ]use .borderColor to change the border color
+		- prompt the user for a border color
+		- use .borderColor to change the color
+		- prompt the user for a border width (thin, thick, or medium)
+		- use .borderWidth to change the width of the border
 	* id = "button" - change the alignment
-		- [ ]use .padding to change the padding
+		- prompt the user for a border color
+		- use .borderColor to change the color
+		- prompt the user for a border width (thin, thick, or medium)
+		- use .borderWidth to change the border width
+		- prompt the user for a distance from the left margin as a %
+		- use marginLeft to set the margin
 	* id = "nutrition" change the alignment
-		- [ ]use margin to change the alignment
+		- prompt the user for a distance from the left margin as a %
+		- use marginLeft to set the margin
+		- prompt the user for a value for the padding in px
+		- use .padding to set the padding
+		
 
 
 
