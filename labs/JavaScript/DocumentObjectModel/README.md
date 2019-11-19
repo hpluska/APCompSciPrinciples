@@ -14,8 +14,11 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 	* Inside your main website directory, make sure you have created the following directory, 
 		- DocumentObjectModel
 	* Inside this directory place the following files
-		- stubs/Index.html
-		- stubs/App.js
+		- [stubs/Index.html](stubs/Index.html)
+		- [stubs/App.js](stubs/App.js)
+		- [stubs/burger.jpg](stubs/burger.jpg)
+		- [stubs/foodlogo.png](stubs/foodlogo.png)
+		- [stubs/logo.svg](stubs/logo.svg)
 	* Implement the challenges below
 	* Show your completed challenges to Ms. Pluska to receive credit for the individual portion of this lab
 
