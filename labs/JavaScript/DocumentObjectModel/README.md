@@ -32,7 +32,7 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 
 	* body
 		- prompt the user for a color
-[ ] 		- use .backgroundColor to change the background color
+ 		- use .backgroundColor to change the background color
 	* id = "foodLogoImage"
 		- prompt the user for a width in px
 		- use .width to change the width
