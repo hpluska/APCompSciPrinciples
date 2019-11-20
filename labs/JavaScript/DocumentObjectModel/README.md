@@ -50,13 +50,13 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 		- prompt the user for a border color
 		- use .borderColor to set the color of the border
 		- prompt the user for a type of border (dashed, dotted, solid, etc)
-		- user .borderStyle to set the border style
+		- use .borderStyle to set the border style
 	* id = "content"
 		- prompt the user for a background color
-		- use backgroundColor to set the background color
+		- use .backgroundColor to set the background color
 	* id = "header"
 		- prompt the user for a background color
-		- use backgroundColor to set the background color
+		- use .backgroundColor to set the background color
 	* id = "burgerImage" 
 		- prompt the user for the size of the image in px
 		- use .width to change the width
@@ -71,10 +71,10 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 		- prompt the user for a border width (thin, thick, or medium)
 		- use .borderWidth to change the border width
 		- prompt the user for a distance from the left margin as a %
-		- use marginLeft to set the margin
+		- use .marginLeft to set the margin
 	* id = "nutrition" change the alignment
 		- prompt the user for a distance from the left margin as a %
-		- use marginLeft to set the margin
+		- use .marginLeft to set the margin
 		- prompt the user for a value for the padding in px
 		- use .padding to set the padding
 		
