@@ -13,8 +13,8 @@ In this lab you will apply javascript to create a webpage
 
 	* Inside your main website directory, make sure you have created the following directory, 
 		- DocumentObjectModelPart2
-	* Implement the challenge below
-	* Show your completed challenge to Ms. Pluska to receive credit for the individual portion of this lab
+	* Implement the challenges below
+	* Show your completed challenges to Ms. Pluska to receive credit for the individual portion of this lab
 
 ### Challenge 1
 
