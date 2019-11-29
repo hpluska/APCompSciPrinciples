@@ -1,31 +1,59 @@
 # Document Object Model Part 2
 
 ## Introduction
-In this lab you will apply javascript to the DOM to create a customizable webpage
+In this lab you will apply javascript to create a webpage
 
 ## Your Tasks
 
-- [ ] Locate the "Document Object Model" lab guide [DocumentObjectModel.pdf](DocumentObjectModel.pdf)
+- [ ] Locate the "Document Object Model" lab guide [DocumentObjectModelPart2.pdf](DocumentObjectModelPart2.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
 - [ ] Complete the individual portion of the lab
 
 	* Inside your main website directory, make sure you have created the following directory, 
-		- DocumentObjectModel
-	* Inside this directory place the following files
-		- [Stubs/Index.html](Stubs/Index.html)
-		- [Stubs/App.js](Stubs/App.js)
-		- [Stubs/burger.jpg](Stubs/burger.jpg)
-		- [Stubs/foodlogo.png](Stubs/foodlogo.png)
-		- [Stubs/logo.svg](Stubs/logo.svg)
+		- DocumentObjectModelPart2
 	* Implement the challenge below
 	* Show your completed challenge to Ms. Pluska to receive credit for the individual portion of this lab
 
-
 ### Challenge 1
 
-- [ ] Navigate to a site of your choosing. Right click and inspect the site. Then apply your javascript skills to modify the site to make it your own! You MUST modify at least 6 elements on the page. Three elements should be modified using .innerHTML. Three elements should be modified using .style.
+- [ ] Create an Index.html file.  Cut and paste the followiing code into this file, 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM Part2</title>
+<script src="App.js"></script>
+<body>
+</body>
+</html>
+```
+
+- [ ] Create an App.js file and place this in the same directory as the Index.html file
+- [ ] Using ONLY javascript complete the following, 
+
+		* Create a h1 header that says "DOM Part 2" in red text
+		* Create a div with a yellow background
+		* Inside the div above, create a paragraph that reads "I am the javascript master!" in blue text
+		* Create another div with a green border
+		* Add an image to this div.  Find a picture of a shark and reference this image
+		* Add a link to this same div.  Your link should point to a page you frequent.  
+
+### Challenge 2
+
+- [ ]  Navigate to the Google landing page.  Open the console, then using ONLY javascript, modify the following, 
+
+		* The background color
+		* The border around the body
+		* The "Google" image (HINT, you will need to remove the srcset attribute AND modify the src attribute to point to a different picture)
+		* Locate the menu bar in the top left corner, then add two more links to this menu
+		* Show your completed page to Ms. Pluska, or take a screen shot of your completed page and show this instead
+		
+
+
+
 
 
 
