@@ -25,7 +25,8 @@ In this lab you will apply javascript to create a webpage
 <html>
 <head>
 <title>DOM Part2</title>
-<script src="App.js"></script>
+<script src="App.js" defer></script>
+</head>
 <body>
 </body>
 </html>
