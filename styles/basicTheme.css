@@ -19,14 +19,14 @@ h1{
 
 }
 
-#tedTalks, #labs, #reviewsAndSolutions, #dailyTasks{
+#tedTalks, #labs, #reviewsAndSolutions,#portfolio, #contact{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#f7f7f7;
 	padding-top:290px;
 }
 
-#contact, #tutorials, #projects, #home, #knowledgeCelebrations{
+#tutorials, #projects, #home, #knowledgeCelebrations, #dailyTasks{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#caccce;
