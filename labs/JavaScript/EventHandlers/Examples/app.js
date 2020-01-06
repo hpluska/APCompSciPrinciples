@@ -1,4 +1,4 @@
-/*
+
 var myButton = document.createElement("button");
 myButton.innerHTML = "Click Me!";
 document.body.append(myButton);
@@ -6,7 +6,7 @@ document.body.append(myButton);
 myButton.onclick = function() {
   myButton.innerHTML = "You clicked me!";
 }
-*/
+
 var width = 200;
 var height = 200;
 var info = document.createElement("div");
@@ -86,4 +86,10 @@ document.body.append(box);
 //locates keys
  document.addEventListener("keydown", function(event) {
     console.log(event.which);
-  })
+  });
+
+box.addEventListener("mousedown", function(event){
+	if(event.which == 3){
+		box.style.backgroundColor = "tomato";
+	}
+});
