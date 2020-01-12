@@ -1,18 +1,18 @@
-# The Math Object and Timers
+# The Math Operations
 
 ## Introduction
-In this lab you will learn how to create interactivity on a website by assigning a function to respond to a specific event firing, or triggering. 
+In this lab you will apply math operations to solve problems. You will also apply the random() method to make your application less predictable and more interesting 
 
 ## Your Tasks
 
-- [ ] Locate the "Event Handlers" lab guide [EventHandlers.pdf](EventHandlers.pdf)
+- [ ] Locate the "MathOperations" lab guide [MathOperations.pdf](MathOperations.pdf)
 
 - [ ] Complete the group portion of the lab as instructed
 
 - [ ] Complete the individual portion of the lab
 
 	* Inside your main website directory, make sure you have created the following directory, 
-		- EventHandlers
+		- MathOperations
 	* Inside this directory create the following files
 		- Index.html
 		- App.js
@@ -38,6 +38,7 @@ In this lab you will learn how to create interactivity on a website by assigning
 
 ### Challenge 3
 
+- [ ] Do an Internet search to find a picture you would like show as the background
 - [ ] Make a monster appear when one of the buttons is clicked
 	* Create another function that accepts an event as a parameter.  In the body of this function make the background of the target associated with this event change to a monster.  
 
@@ -45,7 +46,7 @@ In this lab you will learn how to create interactivity on a website by assigning
 		event.target.style.backgroundImage = "url('path to your image')";
 
 		```
-	* Create a click event listener for one of your buttons.  Each time the button is clicked, the function above should be called and the background of the button should change to the monster
+	* Create a click event listener for one of your buttons.  Each time the button is clicked, the function above should be called and the background of the button should change to the monster.  
 
 ### Challenge 4
 
