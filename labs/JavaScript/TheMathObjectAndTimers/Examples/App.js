@@ -68,7 +68,3 @@ var x7 = 17;
 console.log(Math.sqrt(x7));
 console.log(Math.PI);
 
-var userInput = prompt("Give me a four digit number");
-var num = Number(userInput);
-
-alert("Your number is " + num);

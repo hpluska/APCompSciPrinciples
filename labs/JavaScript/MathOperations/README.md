@@ -21,53 +21,29 @@ In this lab you will apply math operations to solve problems. You will also appl
 
 ### Challenge 1
 
-- [ ] Create a grid of 9 buttons like that shown in the [image](buttonGrid.jpg)
-	* Begin be declaring and initializing two variables which will represent the width and the height of your buttons
-	* Using javascript only, create 9 buttons and have them display as a grid on the page.  The width, height, and position of each button should be defined in terms of the width and height variables above.  
+- [ ] Write code that could be used to prompt a user for a number, then print the reverse of the number to the screen.  Your code should work for any number with 4 digits. 
+
+HINT!  When you prompt a user for a number, the variable is returned as a String variable type.  To use the input as a number, you must _cast_ the value to a number.  Consider the example below, 
+
+	```
+	var userInput = prompt("Give me a four digit number");
+	var num = Number(userInput);
+	alert("Your number is " + num);
+	```
 
 ### Challenge 2
 
-- [ ] Make the buttons turn red when clicked
-	* Create a function that accepts an event as a parameter.  In the body of this function make the target associated with this event turn red, 
+- [ ] Write a random number generator.  Your generator should prompt the user for two numbers.  The first number should be negative.  The second number should be greater than the absolute value of the first number.  The numbers will represent the range.  Once the input is received your program should generate two random integers within the range specified, where the lowest number is inclusive but the highest number is not.  Consider the example below, 
 
-		```
-		event.target.style.backgroundColor = "red";
-		```
-
-	* Create a click event listener for each button.  Each time a button is clicked, the function above should be called
+	```
+	Type a negative number: -5
+	Type a postive number that is greater than 5: 50
+	You got a -4 and a 36
+	```
 
 ### Challenge 3
 
-- [ ] Do an Internet search to find a picture you would like show as the background
-- [ ] Make a monster appear when one of the buttons is clicked
-	* Create another function that accepts an event as a parameter.  In the body of this function make the background of the target associated with this event change to a monster.  
-
-		```
-		event.target.style.backgroundImage = "url('path to your image')";
-
-		```
-	* Create a click event listener for one of your buttons.  Each time the button is clicked, the function above should be called and the background of the button should change to the monster.  
-
-### Challenge 4
-
-- [ ] Implement scoring
-
-	* Declare a new variable called score an initialize this to 10
-	* Using javascript only, create a new element on your page that will hold the score (a div or p element for example)
-	* Make the score variable you declared appear on the screen.  See the code below for an example.  In the example below, the element you created above has been assigned to the variable _scoreHolder_  
-
-	```
-	scoreHolder.innerHTML = "Score = " + score;
-	```
-
-	* Create a new function that deducts one from the score _and_ updates the innerHTML of the element above
-
-	```
-	score = score - 1;
-	```
-
-	* Call this function wherever you want the score to be updated
-	
+- [ ] Consider the program your wrote previously.  Write a random number generator, such that each time the page is refreshed and random number between 1 and 9 (both 1 and 9 are inclusive) is generated.  Use this number to randomly make the monster appear at a random location on your grid.  
 
 
 
