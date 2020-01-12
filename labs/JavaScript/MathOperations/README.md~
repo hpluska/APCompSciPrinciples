@@ -23,6 +23,14 @@ In this lab you will apply math operations to solve problems. You will also appl
 
 - [ ] Write code that could be used to prompt a user for a number, then print the reverse of the number to the screen.  Your code should work for any number with 4 digits. 
 
+HINT!  When you prompt a user for a number, the variable is returned as a String variable type.  To use the input as a number, you must _cast_ the value to a number.  Consider the example below, 
+
+	```
+	var userInput = prompt("Give me a four digit number");
+	var num = Number(userInput);
+	alert("Your number is " + num);
+	```
+
 ### Challenge 2
 
 - [ ] Write a random number generator.  Your generator should prompt the user for two numbers.  The first number should be negative.  The second number should be greater than the absolute value of the first number.  The numbers will represent the range.  Once the input is received your program should generate two random integers within the range specified, where the lowest number is inclusive but the highest number is not.  Consider the example below, 
@@ -31,14 +39,6 @@ In this lab you will apply math operations to solve problems. You will also appl
 	Type a negative number: -5
 	Type a postive number that is greater than 5: 50
 	You got a -4 and a 36
-	```
-
-HINT!  When you prompt a user for a number, the variable is returned as a String variable type.  To use the input as a number, you must _cast_ the value to a number.  Consider the example below, 
-
-	```
-	var userInput = prompt("Give me a four digit number");
-	var num = Number(userInput);
-	alert("Your number is " + num);
 	```
 
 ### Challenge 3

@@ -43,7 +43,7 @@ HINT!  When you prompt a user for a number, the variable is returned as a String
 
 ### Challenge 3
 
-- [ ] Consider the program your wrote previously.  Write a random number generator, such that each time the page is refreshed and random number between 1 and 9 (both 1 and 9 are inclusive) is generated.  Use this number to randomly make the monster appear at a random location on your grid.  
+- [ ] Consider the program your wrote previously.  Write a random number generator, such that each time the page is refreshed and random number between 1 and 9 (both 1 and 9 are inclusive) is generated.  Use this number to randomly make the monster appear at a random location on your grid.
 
 
 
