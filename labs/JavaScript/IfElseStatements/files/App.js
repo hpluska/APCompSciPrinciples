@@ -11,6 +11,7 @@ var height = Card.height;
  * TODO: Create two more cards called "b" and "c"
  */
 var a = new Card();
+var b = new Card();
 
 /**
  * Creates a button with the word "swap" 
@@ -43,9 +44,11 @@ function showTwoCards(){
     var h = height;
     //Make card button
     var cardButton1 = a.makeCardButton();
+   var cardButton2 = b.makeCardButton();
 
     //append card button
     document.body.append(cardButton1);
+    document.body.append(cardButton2);
 
     //position card button
     cardButton1.style.top = height + "px";
