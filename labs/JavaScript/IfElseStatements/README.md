@@ -19,7 +19,7 @@ In this lab you will apply _if-else_ statements to swap and sort cards.  You wil
 		- [files/Card.js](files/Card.js) - the API you will implement
 	* Create a folder called "images" - must be lowercase
 	* Inside the images directory, download all of the images located here
-		- [files/images](files/images)
+		- [https://github.com/hpluska/APCompSciPrinciples/tree/master/labs/JavaScript/IfElseStatements/files/images](https://github.com/hpluska/APCompSciPrinciples/tree/master/labs/JavaScript/IfElseStatements/files/images)
 
 ### Challenge 1
 
