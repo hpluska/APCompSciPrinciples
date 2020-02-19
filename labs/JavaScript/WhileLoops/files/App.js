@@ -5,6 +5,7 @@ var rows = 0, cols = 0;
 
 
 makeGrid();
+//verticalStripes()
 
 /**
  * Creates a button and appends it to the page
