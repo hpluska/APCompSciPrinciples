@@ -35,6 +35,10 @@ In this lab you will manipulate arrays to sort a hand of cards.  You will also c
 
 - [ ] Implement all the TODOS located in [files/MyFavoriteThings/App.js](files/MyFavoriteThings/App.js).  Your final program should work exactly as describe in the lab guide. 
 
+### EXTRA CREDIT
+
+- [ ] Implement the sortCards() function located in [files/CardSort/App.js](files/CardSort/App.js).  The sortCards() function should sort all the cards from lowest to highest.  The resultant array of cards should then display on the page. 
+
 
 
 
