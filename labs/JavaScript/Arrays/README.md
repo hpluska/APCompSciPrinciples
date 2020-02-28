@@ -21,7 +21,7 @@ In this lab you will manipulate arrays to sort a hand of cards.  You will also c
 		- [files/CardSort/Index.html](files/CardSort/Index.html) - the html page that will display your program
 		- [files/CardSort/App.js](files/CardSort/App.js) - the file you will complete
 		- [files/CardSort/Card.js](files/CardSort/Card.js) - the required Card API
-		- [files/CardSort/DeckOfCards.js](files/DeckOfCards.js) - the required DeckOfCards API
+		- [files/CardSort/DeckOfCards.js](files/CardSort/DeckOfCards.js) - the required DeckOfCards API
 	* Inside the MyFavoriteThings directory, download and save the following
 		- [files/MyFavoriteThings/Index.html](files/MyFavoriteThings/Index.html) - the html page that will display your program
 		- [files/MyFavoriteThings/App.js](files/MyFavoriteThings/App.js) - the file you will complete
