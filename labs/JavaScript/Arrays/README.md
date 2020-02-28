@@ -17,7 +17,7 @@ In this lab you will manipulate arrays to sort a hand of cards.  You will also c
 		- Name the first directory "CardSort"
 		- Name the second directory "MyFavoriteThings"
 	* Inside the CardSort directory, download and save the following
-		- All the card images from the previous lab in a directory called "images"
+		- All the card images from the previous lab in a directory called "images". They are also located here [files/CardSort/images](files/CardSort/images)
 		- [files/CardSort/Index.html](files/CardSort/Index.html) - the html page that will display your program
 		- [files/CardSort/App.js](files/CardSort/App.js) - the file you will complete
 		- [files/CardSort/Card.js](files/CardSort/Card.js) - the required Card API
