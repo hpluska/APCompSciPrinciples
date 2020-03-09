@@ -17,7 +17,7 @@ In this lab you will apply _for-each_ loops to manipulate a hand of cards.
 		- [files/CardCountAndSort/Index.html](files/CardCountAndSort/Index.html) - the html page that will display your program
 		- [files/CardCountAndSort/App.js](files/CardCountAndSort/App.js) - the file you will complete
 		- [files/CardCountAndSort/Card.js](files/CardCountAndSort/Card.js) - the Card API you will implement
-		- [files/CardCountAndSort/DeckOfCards.js](files/CardCountAndSort/DeckOfCards) - the DeckOfCards API you will implement
+		- [files/CardCountAndSort/DeckOfCards.js](files/CardCountAndSort/DeckOfCards.js) - the DeckOfCards API you will implement
 	* Create a folder called "images" - must be lowercase
 	* Inside the images directory download all of the images located here (or simply cut and paste the images from the previous lab)
 	- [https://github.com/hpluska/APCompSciPrinciples/tree/master/labs/JavaScript/IfElseStatements/files/images](https://github.com/hpluska/APCompSciPrinciples/tree/master/labs/JavaScript/IfElseStatements/files/images)
