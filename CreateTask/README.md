@@ -60,44 +60,23 @@ mathematical and/or logical concepts; and
 * [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-c-video.mp4)
 * [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-c-written.pdf)
 
-## Getting Started
-
-* Create a new shared document entitled APPrinciplesCreateTaskIdeasLastName (EXAMPLE, APPrinciplesCreateTaskPluska)
-
-* In this document, describe three potential programs that you would like to develop.  As you think of your program consider, 
-
-	- The time frame - this project is due March 1
-	- Your skill level 
-	- Your interests
-
-## Complete the create task reflection
+## Create task reflection
 
 [CreateTaskReflection.docx](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.docx)
 
-## Create a screen cast of your program
+## Screen cast of your program
 
-Create a 30 - 60 second screen cast of your program or a significant feature of your program.  Your recording MUST be a screen cast, not a video recorded of your screen using your phone or another device. I recommend the screencastify.  
+Create a 30 - 60 second screen cast of your program or a significant feature of your program.  Your recording MUST be a screen cast, not a video recorded of your screen using your phone or another device. I recommend the screencastify (or similar application)  
 
 https://www.screencastify.com
 
-DO NOT email the completed video to me.  You must upload this video to the same google drive folder as your completed create task reflection
-
-## Grade your project against the rubric
+## Grading Rubric
 
 [CreateTaskRubric.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskRubric.pdf)
 
-## Help
+## Submitting your project
 
-* Build a deck of cards [https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M](https://studio.code.org/projects/applab/ZlnHz5aya-QzECCr4WR_zTNI8CgbfCYsrBV9osb0y1M)
+Before you submit your project, make sure it is the project you intend to submit for grading both by Ms. Pluska and the College Board - __Revisions on this project will NOT be accepted__. 
 
-* Hangman start [https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg](https://studio.code.org/projects/applab/q8jJ0M63MZpsb-To-HPM82xbvt4V0l90AZxfQJXjjQg)
-
-* Button shuffler [https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk](https://studio.code.org/projects/applab/8TPHrWxTFrTppe_ew6i2dG-FBe8zzmaAXrFCnzE_dzk)
-
-* GameLab Boundary Example [https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg](https://studio.code.org/projects/gamelab/frC7BlPraE2Shu6zbYSpn1XUGrJXmPLATl-7ZNiucmg)
-
-* Blisters Start [https://studio.code.org/projects/applab/qIyEkF7OtQUDlOMO_tZIJnD18rss7TlUaWZViyRzqeU](https://studio.code.org/projects/applab/qIyEkF7OtQUDlOMO_tZIJnD18rss7TlUaWZViyRzqeU)
-
-* Flying Saucer [https://studio.code.org/projects/applab/gNsaP4lrRBWL4lTFYSNq6tFtEou_pW_YkGYa5xjQf1Y](https://studio.code.org/projects/applab/gNsaP4lrRBWL4lTFYSNq6tFtEou_pW_YkGYa5xjQf1Y)
-
+__Your completed project must be submitted to College Board by April 30__.  This is the deadline imposed by the College Board, not Ms. Pluska.  
 
