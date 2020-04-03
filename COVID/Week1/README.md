@@ -28,8 +28,10 @@ In this lesson you will propose an idea for your *Create Task*.  Your idea does 
     *   Navigate to [http://github.com](http://github.com) and create an account
     *   Navigate to [https://classroom.github.com/a/9xe4cG4E](https://classroom.github.com/a/9xe4cG4E) to submit this assignment
         *   Accept the assignment
-        *   Click on the repository link ![repoLinkImage](github1.jpg)
-        *   Add your file ![addFile](github2.jpg)
+        *   Click on the repository link 
+        ![repoLinkImage](github1.jpg)
+        *   Add your file 
+        ![addFile](github2.jpg)
 
 
 
