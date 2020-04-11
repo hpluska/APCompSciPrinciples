@@ -14,36 +14,17 @@ The requirements of your *Create Task*, as taken from College Board, are describ
 > * Implementation of an algorithm that integrates two or more algorithms and integrates mathematical and/or logical concepts; and
 > * development and use of abstractions to manage the complexity of your program (e.g., procedures, abstraction provided by the programming language, APIs).
 
-Whoa!  TMI.  This week will just focus on the algorithm bit.  An *Algorithm* is a set of steps you can write that allows a computer to solve a problem.  
+Whoa!  TMI.  This week we will just focus on the algorithm bit.  An *Algorithm* is a set of steps you can write that allows a computer to solve a problem.  
 
 ## Your Tasks
 
-- [ ] Review the videos below.  These are videos of *Create Tasks* previously submitted by students just like you to college board.  Keep in mind that while these projects were likely created in other languages they could be recreated in pure javascript. Also, keep in mind that any of the programs below could earn you a "5" on the AP Exam!  What determines your score is *not* the complexity of the program, it is how well you document your program and the development process in the narrative - but, more on that later!
+- [ ] Watch the video below, What is an algorithm and why should I care
 
-    * [https://www.youtube.com/watch?time_continue=14&v=9Qkyt5P4gVU&feature=emb_title](https://www.youtube.com/watch?time_continue=14&v=9Qkyt5P4gVU&feature=emb_title) 
-    * [https://www.youtube.com/watch?v=nkWRj6LOjiU](https://www.youtube.com/watch?v=nkWRj6LOjiU)
-    * [https://www.youtube.com/watch?time_continue=1&v=_yWDjEq6kRs&feature=emb_title](https://www.youtube.com/watch?time_continue=1&v=_yWDjEq6kRs&feature=emb_title)
-    * [https://www.youtube.com/watch?v=DES53zj245w&feature=emb_title](https://www.youtube.com/watch?v=DES53zj245w&feature=emb_title)
-    * [https://www.youtube.com/watch?time_continue=5&v=ptGwY2zNjRo&feature=emb_title](https://www.youtube.com/watch?time_continue=5&v=ptGwY2zNjRo&feature=emb_title)
-    *  [https://www.youtube.com/watch?time_continue=36&v=QEPLXa-H_Ac&feature=emb_title](https://www.youtube.com/watch?time_continue=36&v=QEPLXa-H_Ac&feature=emb_title)
-    * [https://www.youtube.com/watch?time_continue=18&v=H1iLeuNfJFM&feature=emb_title](https://www.youtube.com/watch?time_continue=18&v=H1iLeuNfJFM&feature=emb_title)
+    * [https://www.youtube.com/watch?v=CvSOaYi89B4](https://www.youtube.com/watch?v=CvSOaYi89B4) 
 
-- [ ] Create a new text document.  In the document, complete the following prompts,
+- [ ] Think about one problem you need to solve in your program.  For example, maybe you're are writing a memory game.  And, your game begins by displaying a set of cards - some of which are duplicates - to the user, then hides them.  How are you going to do this?  You need to write an *algorithm* for displaying the cards.  You also need an *algorithm* that decides how many duplicate cards there are and where they should be placed on the screen. 
 
-    *   What is your first and last name?  You must indicate this, or I cannot give you credit!   
-    *   What is the name of your program
-    *   What is the purpose of your program
-    *   Brainstorm the steps you will take to complete your program (if you already started your program, indicated what you have completed so far and how you will complete the remainder).  This should be fairly detailed and specific - it should make sense to someone with comparable skills.  Feel free to include preliminary code in your brainstorm as well.  Keep in mind that this is just a brainstorm - you can always change course later!
-
-- [ ] Submit your *Create Task* proposal
-
-    *   Navigate to [http://github.com](http://github.com) and create an account
-    *   Navigate to [https://classroom.github.com/a/9xe4cG4E](https://classroom.github.com/a/9xe4cG4E) to submit this assignment
-        *   Accept the assignment
-        *   Click on the repository link 
-        ![repoLinkImage](github1.jpg)
-        *   Add your file 
-        ![addFile](github2.jpg)
+- [ ] Your task this week is to write and share one *algorithm* that you wrote.  The algorithm you write must solve a problem in your program. You must also be able to explain how your algorithm works.   
 
 
 
