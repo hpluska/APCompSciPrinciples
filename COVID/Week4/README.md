@@ -16,11 +16,7 @@ Believe it or not we have dealt with abstractions a lot over the course of the y
 
     [![abstractionVideo](https://img.youtube.com/vi/pGnDInYzpes/0.jpg)](https://www.youtube.com/watch?v=pGnDInYzpes)
 
-
-
-- [ ] Check out the algorithms you have written.  How might you repurpose your code to ensure it includes two additional algorithms?   
-
-- [ ] Your task this week is to write and share one *algorithm* that you wrote to Piazza.  The algorithm you share must integrate two or more algorithms and utilize mathematical and/or logical concepts.   You must also explain how your algorithm works.   
+- [ ] Your task this week is to share an abstraction you have included in your program on Piazza.  The abstraction you share must be your own and be different than the algorithms you shared previously.   You must also explain how your abstraction handles the complexity of your program.   
 
 
 
