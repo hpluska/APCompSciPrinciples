@@ -14,9 +14,7 @@ Believe it or not we have dealt with abstractions a lot over the course of the y
 
 - [ ] Watch the video on abstractions.  Although the platform being used in the video is different, you should get the idea.
 
-![https://img.youtube.com/vi/pGnDInYzpes/0.jpg](https://www.youtube.com/watch?v=pGnDInYzpes)
-
-    
+    [![abstractionVideo](https://img.youtube.com/vi/pGnDInYzpes/0.jpg)](https://www.youtube.com/watch?v=pGnDInYzpes)
 
 
 
