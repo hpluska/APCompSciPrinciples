@@ -10,7 +10,7 @@ This week's lesson is going to focus on completing the written reflection requir
 
 - [ ] Download the Create Task reflection template
 
-    [Create Task Reflection](../../CreateTask/CreateTaskReflection.docx)
+    [Create Task Reflection](https://github.com/hpluska/APCompSciPrinciples/blob/master/CreateTask/CreateTaskReflection.docx)
 
 - [ ] Complete parts 2a thru 2d
 
