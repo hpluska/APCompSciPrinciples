@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Over the next few weeks you should be wrapping up your Create Task. Although itsn't due to College Board until May 26, **if you would like your Create Task to count towards your semester 2 grade, you must submit your portfolio by May 22 to College Board.**  In this lesson I will provide you some resources on wrapping up your Create Task and submitting your porfolio.    
+Over the next few weeks you should be wrapping up your Create Task. Although it itsn't due to College Board until May 26, **if you would like your Create Task to count towards your semester 2 grade, you must submit your portfolio by May 22 to College Board.**  In this lesson I will provide you some resources on wrapping up your Create Task and submitting your porfolio.    
 
 ## Your Tasks
 
