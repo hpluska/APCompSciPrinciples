@@ -16,7 +16,7 @@ Over the next few weeks you should be wrapping up your Create Task. Although it 
 
     * How to use Screen-cast-omatic to take a less than one minute video of your code running and save it as an mp4 file.  Screen Capture Website: [https://screencast-o-matic.com/](https://screencast-o-matic.com/) (You can also use the screencastify chrome extension, or any other screen recorder that allows you to save your file as an mp4)
 
-    * How to save your google doc of your written responses as a pdf.  This is the template if you haven’t yet started your written responses, click file and make a copy.  :  
+    * How to save your google doc of your written responses as a pdf.  
 
     * How to use Code-print to save your code as a pdf and to mark your abstraction with a rectangle, and your algorithm with an oval.  AP PT CodePrint: [https://bakerfranke.github.io/codePrint/](https://bakerfranke.github.io/codePrint/) 
 
