@@ -8,9 +8,12 @@ This week's lesson is going to focus on completing the written reflection requir
 
 ## Your Tasks
 
-- [ ] Download the Create Task reflection template
+- [ ] If you haven't already done so, download the Create Task reflection template
 
-    [Create Task Reflection](https://github.com/hpluska/APCompSciPrinciples/blob/master/CreateTask/CreateTaskReflection.docx)
+    [Create Task Reflection (*.docx format)](https://github.com/hpluska/APCompSciPrinciples/blob/master/CreateTask/CreateTaskReflection.docx) 
+
+    [Create Task Reflection (google doc format)](https://drive.google.com/file/d/19Qfv1askHGMDlTYUVTFf8dFuz0emlkeq/view?usp=sharing)
+
 
 - [ ] Complete parts 2a thru 2d
 

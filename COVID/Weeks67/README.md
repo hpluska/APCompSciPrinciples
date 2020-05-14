@@ -8,10 +8,25 @@ Over the next few weeks you should be wrapping up your Create Task. Although its
 
 - [ ] If you haven't already done so, download the Create Task reflection template
 
-    [Create Task Reflection](https://github.com/hpluska/APCompSciPrinciples/blob/master/CreateTask/CreateTaskReflection.docx)
+    [Create Task Reflection (*.docx format)](https://github.com/hpluska/APCompSciPrinciples/blob/master/CreateTask/CreateTaskReflection.docx) 
 
-- [ ] Complete parts 2a thru 2d
+    [Create Task Reflection (google doc format)](https://drive.google.com/file/d/19Qfv1askHGMDlTYUVTFf8dFuz0emlkeq/view?usp=sharing)
 
-- [ ] If you have not already done so, create a github account at http://github.com then, navigate to https://classroom.github.com/a/rVsDPPa1 and submit your assignment
+- [ ] Watch Mr. Tait’s video:  [https://www.youtube.com/watch?v=l1_D8x-Yskw](https://www.youtube.com/watch?v=l1_D8x-Yskw)   which goes over each step you need to save files and submit your work.  The steps he shows are:
+
+    * How to use Screen-cast-omatic to take a less than one minute video of your code running and save it as an mp4 file.  Screen Capture Website: [https://screencast-o-matic.com/](https://screencast-o-matic.com/) 
+
+            - You can also use the screencastify chrome extension, or any other screen recorder that allows you to save your file as an mp4
+
+    * How to save your google doc of your written responses as a pdf.  This is the template if you haven’t yet started your written responses, click file and make a copy.  :  
+
+    * How to use Code-print to save your code as a pdf and to mark your abstraction with a rectangle, and your algorithm with an oval.  AP PT CodePrint: [https://bakerfranke.github.io/codePrint/](https://bakerfranke.github.io/codePrint/) 
+
+    * How to upload your work to   AP Digital Portfolio  
+
+- [ ] Before you submit your final porfolio make sure you have graded both your Create Task and your Explore Task using the grading criteria provided by College Board, 
+
+    * [Create Task](https://apcentral.collegeboard.org/pdf/ap-csp-create-performance-task-scoring-guidelines-2019.pdf)
+    * [Explore Task](https://apcentral.collegeboard.org/pdf/ap-csp-explore-performance-task-scoring-guidelines-2019.pdf)
 
 
