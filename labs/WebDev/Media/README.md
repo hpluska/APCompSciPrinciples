@@ -34,6 +34,7 @@ In this lab you will use the img and video tags to display images and videos on 
 <html>
 <head>
 <title>Media</title>
+</head>
 <body>
 	<h1>Challenge 1</h1> 
  
