@@ -14,7 +14,7 @@ In this lab you will apply javascript to the DOM to create a customizable webpag
 	* Inside your main website directory, make sure you have created the following directory, 
 		- DocumentObjectModel
 	* Inside this directory place the following files
-		- [Stubs/Index.html](Stubs/Index.html)
+		- [Stubs/index.html](Stubs/index.html)
 		- [Stubs/App.js](Stubs/App.js)
 		- [Stubs/burger.jpg](Stubs/burger.jpg)
 		- [Stubs/foodlogo.png](Stubs/foodlogo.png)
