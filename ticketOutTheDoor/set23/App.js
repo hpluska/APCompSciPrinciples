@@ -1,7 +1,8 @@
 
 
 var myArea = rectangleArea(10, 5);
-console.log(myArea);//prints 50
+console.log(myArea);
+
 function rectangleArea(width, height){
     var area = width * height;
     return area;
