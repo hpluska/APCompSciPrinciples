@@ -1,7 +1,8 @@
 /*
 Exercise 1
 */
-/*var myButton = document.createElement("button");
+/*
+var myButton = document.createElement("button");
 myButton.innerHTML = "Click Me!";
 document.body.append(myButton);
 
@@ -42,11 +43,14 @@ function changeContent(){
     moreText.innerHTML = "More info about JavaScript!";
     content.append(moreText);
 }
-*/
+/*
 
+*/
 /*
 Exercise 3
 */
+
+
 /*
 document.body.addEventListener("click", changeText);
 document.body.addEventListener("click", changeBackground);
@@ -116,6 +120,8 @@ function addContent(){
     readMoreButton.removeEventListener('click',addContent);
 }
 */
+
+
 
 /*
 var storeContainer = document.createElement("div");
@@ -215,6 +221,7 @@ function changeBackgroundIn(){
 
 function changeBackgroundOut(){
     moreInfo.style.backgroundColor = "red";
+    moreInfo.style.width = "800px";
 }
 
 function changeText(){
@@ -315,7 +322,7 @@ function moveUp(){
 */
 
 
-/*
+
 var gameDiv = document.createElement("div");
 gameDiv.style.width = "300px";
 gameDiv.style.height = "600px";
@@ -350,6 +357,6 @@ function ballUp(){
 function ballDown(){
     ball.style.top = "570px";
 }
-*/
+
 
 
