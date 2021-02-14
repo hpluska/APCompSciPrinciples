@@ -68,3 +68,21 @@ var p1 = s.charAt(j);
 console.log(p1);
 var p2 = s.charAt(z - 90);
 console.log(p2);
+
+var str = s.trim();
+console.log("+"+str+"+");
+
+console.log("A\t\tB\n\C\t\tD\n\E\t\tF\nG\t\tH\nI\t\tJ\nK\t\tL\nM\t\tN\nO\t\tP\nQ\t\tR\nS\t\tT\nU\t\tV\nW\t\tX\nY\t\tZ");
+
+var myPet = "Sparky the dog";
+var smallPart = myPet.substring(4);
+console.log(smallPart);// prints ky the dog
+var smallPart2 = myPet.substring(4,12);
+console.log(smallPart2);//prints ky the d
+var theName = "Donald Duck";
+var len = theName.length;
+console.log(len);
+var phrase ="Where is my car?";
+var phraseUpper = phrase.toUpperCase();
+console.log(phraseUpper);
+
