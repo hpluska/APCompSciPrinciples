@@ -37,18 +37,25 @@ function clearAlert() {
   clearTimeout(timeoutID);
 }
 
-var gameTimer;
+var gameTimer, gameOverTimer;
 var timeLeft;
 var score = 10;
-var gameTime = 15;
+var gameTime = 10;
 countDown();
+gameTimer();
 function gameTimer(){
      timeOut = setTimeout(gameOver, gameTime*1000);
 }
 function countDown() {
      timeLeft = setInterval(updateTime, 1000);
+
 }
 function updateTime(){
      gameTime--;
      document.body.innerHTML = gameTime;
+}
+
+function gameOver(){
+  clearInterval(timeLeft);
+  clearTimeout(gameOverTimer);
 }
