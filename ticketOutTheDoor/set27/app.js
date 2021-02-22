@@ -1,3 +1,25 @@
+var num = 1234;
+var numLength = Math.floor(Math.log10(num)+1);//The number of digits in num
+var count = 0;
+
+timer = setInterval(show, 1000);
+timerEnd = setTimeout(end, numLength*1000);
+
+function show(){
+  count++;
+  var d = Math.pow(10, count);
+  console.log(num%d); 
+}
+
+function end(){
+  clearInterval(timer);
+}
+
+
+
+
+/*
+
 var timer;
 //delayTimer();
 
@@ -59,3 +81,4 @@ function gameOver(){
   clearInterval(timeLeft);
   clearTimeout(gameOverTimer);
 }
+*/
