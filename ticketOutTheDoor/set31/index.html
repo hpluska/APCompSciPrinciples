@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var num = 5678;
+            var result = "";
+            while(num >0){
+                result = result + num%10;
+                num = Math.floor(num/10);
+            }
+            //console.log(result);
+
+            function multiply(x, y){
+                var count = 0;
+                var result = 0;
+                while(count != y){
+                    result = result + x;
+                    count = count + 1;
+                }
+                return result;
+            }
+            console.log(multiply(-2,-3));
+
+        </script>
+    </head>
+</html>
