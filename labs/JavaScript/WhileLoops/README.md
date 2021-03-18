@@ -1,4 +1,4 @@
-# _while loops_ 
+# While Loops
 
 ## Introduction
 In this lab you will apply _while loops_ to convert numbers and create interesting shapes on a grid of buttons.   
