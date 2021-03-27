@@ -19,3 +19,14 @@ result += "\n";
 }
 
 console.log(result);
+
+
+var m = 0, k = 0, p = 0;
+for(m = 97; m <=195; m++){
+    k = k * k + 3 * m;
+    p = p + m + 1;
+}
+
+var word = "tacocat";
+console.log(word.length);
+
