@@ -39,7 +39,7 @@ function alphabetized(){
 }
 
 console.log(houses);
-//sort();
+sort();
 console.log(houses);
 console.log(alphabetized());
 
