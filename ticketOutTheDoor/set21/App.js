@@ -1,26 +1,65 @@
 
 
-var myArea = rectangleArea(10, 5);
-console.log(myArea);
+function getReminder(){
+
+    var msg = "Water the plants";
+    var msg2 = "another msg";
+    return msg + msg2;
+
+}
+
+
+var finalMsg = getReminder();
+
+console.log(finalMsg);
+
+
+
+
+
+
+
+
+/*
+
+
+var globalArea = rectangleArea(10, 5);
+console.log(globalArea);
+console.log(area);
 
 function rectangleArea(width, height){
     var area = width * height;
     return area;
+    
 }
 
 
+*/
 
 
 
 
 
 
+/*
+
+var a = 0;
+
+for(var i = 0; i < 10; i++){
+    var d = drawSquare(200, i*10+100, 100);
+    a += 36;
+    d.style.transform = "rotate(" + a +"deg)";
+}
 
 
+//drawSquare(400, 0, 0);
+//drawSquare(300, 50, 50);
+//drawSquare(200, 100, 100);
 
-drawSquare(200, 0, 0);
-drawSquare(200/2, 50, 50);
-drawSquare(200/4, 75, 75);
+*/
+
+/*
+var globalSquare;
 
 function drawSquare(d, x, y){
     var square = document.createElement("div");
@@ -34,9 +73,13 @@ function drawSquare(d, x, y){
     square.style.left = xPos + "px";
     square.style.top = yPos + "px";
     document.body.append(square);
+    return square;
+
 }
 
-
+globalSquare = drawSquare(400, 0, 0);
+globalSquare.innerHTML = "Here is some text";
+*/
 
 /*
 var rectWidth = 10;
