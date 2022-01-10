@@ -1,7 +1,9 @@
 /*
 Exercise 1
 */
+
 /*
+
 var myButton = document.createElement("button");
 myButton.innerHTML = "Click Me!";
 document.body.append(myButton);
@@ -36,22 +38,22 @@ readMoreButton.style.margin = "10px";
 readMoreButton.innerHTML = "Read More";
 exercise2.append(readMoreButton);
 
-readMoreButton.onclick = changeContent;
+readMoreButton.addEventListener("click", changeContent);
 
 function changeContent(){
     var moreText = document.createElement("p");
     moreText.innerHTML = "More info about JavaScript!";
     content.append(moreText);
+    readMoreButton.removeEventListener("click", changeContent);
 }
-/*
 
 */
+
 /*
 Exercise 3
 */
-
-
 /*
+document.body.innerHTML = "Some text!";
 document.body.addEventListener("click", changeText);
 document.body.addEventListener("click", changeBackground);
 
@@ -119,11 +121,11 @@ function addContent(){
     content.append(moreText);
     readMoreButton.removeEventListener('click',addContent);
 }
+
+
 */
-
-
-
 /*
+
 var storeContainer = document.createElement("div");
 document.body.append(storeContainer);
 storeContainer.style.width = "140px";
@@ -227,7 +229,7 @@ function changeBackgroundOut(){
 function changeText(){
     moreInfo.innerHTML = "Stop wheeling!";
 }
-  */
+ */ 
 /*
 //creates a simple div
 var myDiv = document.createElement("div");
@@ -321,7 +323,7 @@ function moveUp(){
 }
 */
 
-
+/*
 
 var gameDiv = document.createElement("div");
 gameDiv.style.width = "300px";
@@ -359,4 +361,4 @@ function ballDown(){
 }
 
 
-
+*/
