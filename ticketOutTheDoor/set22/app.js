@@ -39,12 +39,17 @@ readMoreButton.innerHTML = "Read More";
 exercise2.append(readMoreButton);
 
 readMoreButton.addEventListener("click", changeContent);
+readMoreButton.addEventListener("click", readLess);
 
 function changeContent(){
     var moreText = document.createElement("p");
     moreText.innerHTML = "More info about JavaScript!";
     content.append(moreText);
     readMoreButton.removeEventListener("click", changeContent);
+}
+
+function readLess(){
+    readMoreButton.innerHTML = "read less";
 }
 
 */
@@ -124,8 +129,8 @@ function addContent(){
 
 
 */
-/*
 
+/*
 var storeContainer = document.createElement("div");
 document.body.append(storeContainer);
 storeContainer.style.width = "140px";
@@ -229,7 +234,7 @@ function changeBackgroundOut(){
 function changeText(){
     moreInfo.innerHTML = "Stop wheeling!";
 }
- */ 
+ */
 /*
 //creates a simple div
 var myDiv = document.createElement("div");
@@ -323,7 +328,7 @@ function moveUp(){
 }
 */
 
-/*
+
 
 var gameDiv = document.createElement("div");
 gameDiv.style.width = "300px";
@@ -361,4 +366,4 @@ function ballDown(){
 }
 
 
-*/
+
