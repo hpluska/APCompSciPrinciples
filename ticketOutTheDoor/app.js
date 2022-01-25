@@ -1,4 +1,4 @@
-/*var num = 1234;
+var num = 1234;
 var numLength = Math.floor(Math.log10(num)+1);//The number of digits in num
 var count = 0;
 
@@ -14,7 +14,7 @@ function show(){
 function end(){
   clearInterval(timer);
 }
-*/
+
 
 
 
@@ -30,7 +30,7 @@ function delayTimer() {
 function delayedFunction() {
   alert("Three seconds have elapsed.");
 }
-*/
+
 var timer2;
 //repeatEverySecond();
 
@@ -43,8 +43,6 @@ function sendMessage() {
   document.body.innerHTML = d.toLocaleTimeString();
 }
 
-repeatEverySecond();
-/*
 var timeoutID;
 //delayTimer();
 
