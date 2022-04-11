@@ -1,3 +1,6 @@
+
+
+
 /*var num = 1234;
 var numLength = Math.floor(Math.log10(num)+1);//The number of digits in num
 var count = 0;
@@ -31,6 +34,8 @@ function delayedFunction() {
   alert("Three seconds have elapsed.");
 }
 */
+
+/*
 var timer2;
 //repeatEverySecond();
 
@@ -44,7 +49,8 @@ function sendMessage() {
 }
 
 repeatEverySecond();
-/*
+*/
+
 var timeoutID;
 //delayTimer();
 
@@ -61,15 +67,18 @@ function clearAlert() {
   clearTimeout(timeoutID);
 }
 
-var gameTimer, gameOverTimer;
+//var gameTimer, gameOverTimer;
+
+//var score = 10;
+
+
+//gameTimer();
+//function gameTimer(){
+//     timeOut = setTimeout(gameOver, gameTime*1000);
+//}
+
 var timeLeft;
-var score = 10;
 var gameTime = 10;
-countDown();
-gameTimer();
-function gameTimer(){
-     timeOut = setTimeout(gameOver, gameTime*1000);
-}
 function countDown() {
      timeLeft = setInterval(updateTime, 1000);
 
@@ -79,8 +88,13 @@ function updateTime(){
      document.body.innerHTML = gameTime;
 }
 
-function gameOver(){
-  clearInterval(timeLeft);
-  clearTimeout(gameOverTimer);
-}
-*/
+countDown();
+
+
+
+
+
+//function gameOver(){
+//  clearInterval(timeLeft);
+//  clearTimeout(gameOverTimer);
+//}

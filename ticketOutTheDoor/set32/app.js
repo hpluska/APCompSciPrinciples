@@ -1,32 +1,61 @@
-var sum = 0;
-for(var outer = 0; outer < 5; outer++) {
+/*
+var houses = [];
+houses[3] = "Wilma";
+houses[6] = "Barney";
+houses[2] = "Homer";
 
-    for(var inner = 0;inner< 8;inner++){
+houses = "new house";
 
-        sum += 1;
+console.log(houses);
 
-    }//end inner loop
 
-}//end outerloop
-    
-console.log(sum);
-var result = "";
-for(var row = 10; row > 0; row--){
-    for(var col = 0; col < row; col++){
-        result += "*";
+function swap(a, b){
+    var temp = houses[a];
+    houses[a] = houses[b];
+    houses[b] = temp;
+}
+
+function minToFront(j){
+    var minIndex = j;
+    var min = houses[j];
+    for(var i = j; i < houses.length; i++){
+        if(houses[i] < min){
+            minIndex = i;
+            min = houses[i];
+        }
     }
-result += "\n";
+    swap(j, minIndex);
 }
 
-console.log(result);
-
-
-var m = 0, k = 0, p = 0;
-for(m = 97; m <=195; m++){
-    k = k * k + 3 * m;
-    p = p + m + 1;
+function sort(){
+    for(var j = 0; j < houses.length; j++){
+        minToFront(j);
+    }
 }
 
-var word = "tacocat";
-console.log(word.length);
+function alphabetized(){
+
+    for(var i = 1; i < houses.length-1; i++){
+        if(houses[i+1] < houses[i] ){
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log(houses);
+sort();
+console.log(houses);
+console.log(alphabetized());
+*/
+var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];//the last index is 9
+function doSomething(j){
+
+    while(j != nums.length){//length is 10
+        console.log(nums[j]);
+        j+=2;   
+    }
+}
+
+doSomething(2);
 

@@ -16,6 +16,8 @@ nextButton.addEventListener("click", scroll);
  * box to the favsList array
  */
 function addItem(){
+
+
     
 
 }
