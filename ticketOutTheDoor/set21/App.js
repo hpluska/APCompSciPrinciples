@@ -1,17 +1,17 @@
 
 
-function getReminder(){
+// function getReminder(){
 
-    var msg = "Water the plants";
-    var msg2 = "another msg";
-    return msg + msg2;
+//     var msg = "Water the plants";
+//     var msg2 = "another msg";
+//     return msg + msg2;
 
-}
+// }
 
 
-var finalMsg = getReminder();
+// var finalMsg = getReminder();
 
-console.log(finalMsg);
+// console.log(finalMsg);
 
 
 
@@ -58,8 +58,13 @@ for(var i = 0; i < 10; i++){
 
 */
 
-/*
-var globalSquare;
+
+//var globalSquare;
+
+drawSquare(200, 0, 0);
+drawSquare(100, 50, 50);
+drawSquare(25, 100, 100);
+
 
 function drawSquare(d, x, y){
     var square = document.createElement("div");
@@ -73,13 +78,12 @@ function drawSquare(d, x, y){
     square.style.left = xPos + "px";
     square.style.top = yPos + "px";
     document.body.append(square);
-    return square;
 
 }
 
-globalSquare = drawSquare(400, 0, 0);
-globalSquare.innerHTML = "Here is some text";
-*/
+//globalSquare = drawSquare(400, 0, 0);
+//globalSquare.innerHTML = "Here is some text";
+
 
 /*
 var rectWidth = 10;

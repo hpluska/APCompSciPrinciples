@@ -1,8 +1,13 @@
 
-var temp = document.getElementById("img1").getAttribute("src");
-document.getElementById('img1').src = document.getElementById("img2").getAttribute("src");
-document.getElementById("img2").src = temp;
-
+//var temp = document.getElementById("img1").getAttribute("src");
+//document.getElementById('img1').src = document.getElementById("img2").getAttribute("src");
+//document.getElementById("img2").src = temp;
+var anotherParagraph = document.createElement("p");
+anotherParagraph.innerHTML = "Welcome Back!";
+anotherParagraph.id = "p2";
+document.getElementById("p1").append(anotherParagraph);
+anotherParagraph.style.borderColor = "tomato";
+anotherParagraph.style.borderStyle = "dotted";
 
 
 
