@@ -1,3 +1,5 @@
+
+/*
 //Exercise 23.1
 console.log("Exercise 23.1");
 
@@ -75,3 +77,24 @@ var y = 1;
 z %= 3+y; 
 console.log(++z); 
 console.log(z--);
+*/
+
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+console.log(Math.floor(Math.random()*6) + 1);
+
+
+
+
+
+
+
+
+
+
+
+

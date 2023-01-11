@@ -1,3 +1,44 @@
+var list = "";
+
+function makeList(){
+    var item = prompt("add an item"); 
+    list = list + item + ",";
+}
+
+function displayList(){
+    var d = document.createElement("div");
+    d.innerHTML = list;
+    document.body.append(d);
+}
+
+makeList();
+makeList();
+makeList();
+makeList();
+makeList();
+displayList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // function getReminder(){
@@ -61,25 +102,25 @@ for(var i = 0; i < 10; i++){
 
 //var globalSquare;
 
-drawSquare(200, 0, 0);
-drawSquare(100, 50, 50);
-drawSquare(25, 100, 100);
+// drawSquare(200, 0, 0);
+// drawSquare(100, 50, 50);
+// drawSquare(25, 100, 100);
 
 
-function drawSquare(d, x, y){
-    var square = document.createElement("div");
-    var dimensions = d;
-    var xPos = x; 
-    var yPos = y;
-    square.style.width = dimensions + "px";
-    square.style.height = dimensions + "px";
-    square.style.border = "thick solid #0000FF";
-    square.style.position = "absolute";
-    square.style.left = xPos + "px";
-    square.style.top = yPos + "px";
-    document.body.append(square);
+// function drawSquare(d, x, y){
+//     var square = document.createElement("div");
+//     var dimensions = d;
+//     var xPos = x; 
+//     var yPos = y;
+//     square.style.width = dimensions + "px";
+//     square.style.height = dimensions + "px";
+//     square.style.border = "thick solid #0000FF";
+//     square.style.position = "absolute";
+//     square.style.left = xPos + "px";
+//     square.style.top = yPos + "px";
+//     document.body.append(square);
 
-}
+// }
 
 //globalSquare = drawSquare(400, 0, 0);
 //globalSquare.innerHTML = "Here is some text";

@@ -1,24 +1,39 @@
+// document.body.style.width = "500px";
+// document.body.style.height = "500px";
+
+
+// document.body.addEventListener("click", changeText); 
+// document.body.addEventListener("click", changeBackground); 
+// function changeText(){ 
+//     document.body.innerHTML = "The text has changed!"; 
+// } 
+// function changeBackground(){ 
+//     document.body.style.backgroundColor = "pink"; 
+// }
+
+
+
 /*
 Exercise 1
 */
 
-/*
 
-var myButton = document.createElement("button");
-myButton.innerHTML = "Click Me!";
-document.body.append(myButton);
 
-myButton.onclick = clickFunction;
+// var myButton = document.createElement("button");
+// myButton.innerHTML = "Click Me!";
+// document.body.append(myButton);
 
-function clickFunction(){
-    myButton.innerHTML = "You clicked me!";
-}
-*/
+// myButton.onclick = clickFunction;
+
+// function clickFunction(){
+//      myButton.innerHTML = "You clicked me!";
+// }
+
 
 /*
 Exercise 2
 */
-/*
+
 var exercise2 = document.createElement("div");
 exercise2.style.margin = "20px";
 exercise2.style.padding = "5px";
@@ -38,21 +53,52 @@ readMoreButton.style.margin = "10px";
 readMoreButton.innerHTML = "Read More";
 exercise2.append(readMoreButton);
 
-readMoreButton.addEventListener("click", changeContent);
-readMoreButton.addEventListener("click", readLess);
+readMoreButton.addEventListener("click", addMoreText);
+readMoreButton.addEventListener("click", changeButtonText);
 
-function changeContent(){
-    var moreText = document.createElement("p");
-    moreText.innerHTML = "More info about JavaScript!";
-    content.append(moreText);
-    readMoreButton.removeEventListener("click", changeContent);
+function addMoreText(){
+
+       var p = document.createElement("p");
+        p.innerHTML = "MORE TEXT";
+      content.append(p);
+      readMoreButton.removeEventListener("click", addMoreText);
+
 }
 
-function readLess(){
-    readMoreButton.innerHTML = "read less";
+function changeButtonText(){
+    readMoreButton.innerHTML = "Read Less"
 }
 
-*/
+
+
+
+
+// readMoreButton.addEventListener("click", addMoreText);
+
+
+
+
+
+
+
+
+
+
+
+// readMoreButton.addEventListener("click", changeContent);
+//  readMoreButton.addEventListener("click", readLess);
+
+//  function changeContent(){
+//      var moreText = document.createElement("p");
+//      moreText.innerHTML = "More info about JavaScript!";
+//      content.append(moreText);
+//      readMoreButton.removeEventListener("click", changeContent);
+//  }
+
+//  function readLess(){
+//      readMoreButton.innerHTML = "read less";
+//  }
+
 
 /*
 Exercise 3
@@ -130,77 +176,77 @@ function addContent(){
 
 */
 
-/*
-var storeContainer = document.createElement("div");
-document.body.append(storeContainer);
-storeContainer.style.width = "140px";
-storeContainer.style.border = "black solid medium";
-storeContainer.style.height = "325px";
 
-var monster = document.createElement("div");
-monster.style.position = "absolute";
-monster.style.top = "40px";
-monster.style.width = "140px";
-monster.style.height = "300px";
-monster.style.backgroundImage = "url('monster.png')";
-monster.style.backgroundRepeat = "no-repeat";
-storeContainer.append(monster);
+// var storeContainer = document.createElement("div");
+// document.body.append(storeContainer);
+// storeContainer.style.width = "140px";
+// storeContainer.style.border = "black solid medium";
+// storeContainer.style.height = "325px";
 
-var lockButton = document.createElement("div");
-lockButton.innerHTML = "lock";
-lockButton.style.border = "black solid thin";
-lockButton.style.width = "50px";
-lockButton.style.float = "right";
-lockButton.style.textAlign = "center";
-lockButton.style.backgroundColor = "lightgrey";
-storeContainer.append(lockButton);
+// var monster = document.createElement("div");
+// monster.style.position = "absolute";
+// monster.style.top = "40px";
+// monster.style.width = "140px";
+// monster.style.height = "300px";
+// monster.style.backgroundImage = "url('monster.png')";
+// monster.style.backgroundRepeat = "no-repeat";
+// storeContainer.append(monster);
 
-var unlockButton = document.createElement("div");
-unlockButton.innerHTML = "unlock";
-unlockButton.style.border = "black solid thin";
-unlockButton.style.width = "50px";
-unlockButton.style.float = "left";
-unlockButton.style.textAlign = "center";
-unlockButton.style.backgroundColor = "lightgrey";
-storeContainer.append(unlockButton);
+// var lockButton = document.createElement("div");
+// lockButton.innerHTML = "lock";
+// lockButton.style.border = "black solid thin";
+// lockButton.style.width = "50px";
+// lockButton.style.float = "right";
+// lockButton.style.textAlign = "center";
+// lockButton.style.backgroundColor = "lightgrey";
+// storeContainer.append(lockButton);
 
-var door = document.createElement("div");
-door.style.position = "relative";
-door.style.top = "20px";
-door.style.width = "100%";
-door.style.height = "300px";
-door.style.backgroundColor = "yellow";
-door.innerHTML = "";
-door.style.textAlign = "center";
-storeContainer.append(door);
+// var unlockButton = document.createElement("div");
+// unlockButton.innerHTML = "unlock";
+// unlockButton.style.border = "black solid thin";
+// unlockButton.style.width = "50px";
+// unlockButton.style.float = "left";
+// unlockButton.style.textAlign = "center";
+// unlockButton.style.backgroundColor = "lightgrey";
+// storeContainer.append(unlockButton);
 
-function openDoor() {
-    door.hidden = true;
-}
+// var door = document.createElement("div");
+// door.style.position = "relative";
+// door.style.top = "20px";
+// door.style.width = "100%";
+// door.style.height = "300px";
+// door.style.backgroundColor = "yellow";
+// door.innerHTML = "";
+// door.style.textAlign = "center";
+// storeContainer.append(door);
 
-function closeDoor(){
-    door.hidden = false;
-}
+// function openDoor() {
+//     door.hidden = true;
+// }
+
+// function closeDoor(){
+//     door.hidden = false;
+// }
     
-function open(){
-    door.innerHTML = "OPEN";
-    unlockButton.style.backgroundColor = "lightGreen";
-    lockButton.style.backgroundColor = "lightGrey";
-    door.addEventListener('click', openDoor);
-}
+// function open(){
+//     door.innerHTML = "OPEN";
+//     unlockButton.style.backgroundColor = "lightGreen";
+//     lockButton.style.backgroundColor = "lightGrey";
+//     door.addEventListener('click', openDoor);
+// }
 
-function closed(){
-    door.innerHTML = "CLOSED";
-    //Write your code below
-    unlockButton.style.backgroundColor = "lightGrey";
-    lockButton.style.backgroundColor = "pink";
-    closeDoor();
-    door.removeEventListener('click', openDoor);
-}
+// function closed(){
+//     door.innerHTML = "CLOSED";
+//     //Write your code below
+//     unlockButton.style.backgroundColor = "lightGrey";
+//     lockButton.style.backgroundColor = "pink";
+//     closeDoor();
+//     door.removeEventListener('click', openDoor);
+// }
   
-unlockButton.addEventListener('click', open);
-lockButton.addEventListener('click', closed);
-  */
+// unlockButton.addEventListener('click', open);
+// lockButton.addEventListener('click', closed);
+  
 
   /* 
   Exercise 5
@@ -330,40 +376,40 @@ function moveUp(){
 
 
 
-var gameDiv = document.createElement("div");
-gameDiv.style.width = "300px";
-gameDiv.style.height = "600px";
-gameDiv.style.backgroundColor = "violet";
-var gameTitle = document.createElement("H1");
-var gameText = document.createTextNode("Ball Bounce");
-gameTitle.style.textAlign = "center";
-gameTitle.append(gameText);
-gameDiv.append(gameTitle);
-document.body.append(gameDiv);
-var gameDirections = document.createElement("p");
-gameDirections.innerHTML = "Let's dribble the ball using any key on the keyboard. Hold a key down to lift the ball, then release a key to drop the ball."
-gameDirections.style.textAlign = "center";
-gameDiv.append(gameDirections);
+// var gameDiv = document.createElement("div");
+// gameDiv.style.width = "300px";
+// gameDiv.style.height = "600px";
+// gameDiv.style.backgroundColor = "violet";
+// var gameTitle = document.createElement("H1");
+// var gameText = document.createTextNode("Ball Bounce");
+// gameTitle.style.textAlign = "center";
+// gameTitle.append(gameText);
+// gameDiv.append(gameTitle);
+// document.body.append(gameDiv);
+// var gameDirections = document.createElement("p");
+// gameDirections.innerHTML = "Let's dribble the ball using any key on the keyboard. Hold a key down to lift the ball, then release a key to drop the ball."
+// gameDirections.style.textAlign = "center";
+// gameDiv.append(gameDirections);
 
-var ball = document.createElement("div");
-ball.style.position = "absolute";
-ball.style.borderRadius = "50%";
-ball.style.width = "50px";
-ball.style.height = "50px";
-ball.style.top = "570px";
-ball.style.left = "125px";
-ball.style.backgroundColor = "yellow";
-gameDiv.append(ball);
+// var ball = document.createElement("div");
+// ball.style.position = "absolute";
+// ball.style.borderRadius = "50%";
+// ball.style.width = "50px";
+// ball.style.height = "50px";
+// ball.style.top = "570px";
+// ball.style.left = "125px";
+// ball.style.backgroundColor = "yellow";
+// gameDiv.append(ball);
 
-document.body.addEventListener("keydown", ballUp);
-document.body.addEventListener("keyup", ballDown);
+// document.body.addEventListener("keydown", ballUp);
+// document.body.addEventListener("keyup", ballDown);
 
-function ballUp(){
-    ball.style.top = "270px";
-}
-function ballDown(){
-    ball.style.top = "570px";
-}
+// function ballUp(){
+//     ball.style.top = "270px";
+// }
+// function ballDown(){
+//     ball.style.top = "570px";
+// }
 
 
 
