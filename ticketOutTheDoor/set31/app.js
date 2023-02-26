@@ -24,6 +24,7 @@ console.log(houses.length);
 
 console.log(houses[houses.length-1]); //prints Marvin
 */
+var shoppingList = [];
 
 var getInput = document.createElement("input");
 document.body.append(getInput);
@@ -31,11 +32,13 @@ document.body.append(getInput);
 var showButton = document.createElement("button");
 showButton.style.width = "100px";
 showButton.style.height = "25px";
-showButton.innerHTML = "SHOW";
+showButton.innerHTML = "Add item";
 document.body.append(showButton);
 
 showButton.addEventListener("click", getValue);
 
 function getValue(){
     var userInput = getInput.value;
+    shoppingList.push(userInput);
+    console.log(shoppingList);
 }
