@@ -1,14 +1,14 @@
-/*
+
 var houses = [];
 houses[3] = "Wilma";
 houses[6] = "Barney";
 houses[2] = "Homer";
 
-houses = "new house";
+console.log(houses[4]);
 
 console.log(houses);
 
-
+/*
 function swap(a, b){
     var temp = houses[a];
     houses[a] = houses[b];
@@ -48,14 +48,14 @@ sort();
 console.log(houses);
 console.log(alphabetized());
 */
-var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];//the last index is 9
-function doSomething(j){
+// var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];//the last index is 9
+// function doSomething(j){
 
-    while(j != nums.length){//length is 10
-        console.log(nums[j]);
-        j+=2;   
-    }
-}
+//     while(j != nums.length){//length is 10
+//         console.log(nums[j]);
+//         j+=2;   
+//     }
+// }
 
-doSomething(2);
+// doSomething(2);
 
