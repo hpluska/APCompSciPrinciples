@@ -2,81 +2,57 @@
 
 ## Create Task Overview
 
-This performance task requires you to develop a program on a topic that interests
-you or one that solves a problem. During the completion of this performance task,
-you will iteratively design, implement, and test your program. You will provide
-written responses to prompts about your program and specific program code that
-are significant to the functionality of your program. It is strongly recommended that
-a portion of the program involve some form of collaboration with another student in
-your class, for example, in the planning, designing, or testing (debugging) part of
-the development process. Your program development must also involve a significant
-amount of independent work writing your program code, in particular, algorithm(s)
-and abstraction(s) that you select to use as part of your written response to describe
-how the program code segments help your program run.
-
-You are required to, 
-
-* Independently develop an algorithm that integrates two or more algorithms and
-that is fundamental for your program to achieve its intended purpose;
-* Develop an abstraction that manages the complexity of your program;
-* Create a video that displays the running of your program and demonstrates its
-functionality;
-* Write responses to all the prompts in the performance task; and
-* Submit your entire program code.
+This performance task requires you to develop a program on a topic that interests you or one that solves a problem. During the completion of this performance task, you will iteratively design, implement, and test your program. You will also provide written responses to prompts about your program and specific code segments that are significant to the functionality of your program. While the development of your program may involve some form of collaboration with another student in your class, for example, in the planning, designing, or testing (debugging) part of the process. Your program development must also involve a significant amount of independent work, in particular, the development of the lists, alogrithms, and procdures that you select to use as part of your written response. 
 
 ## Program Requirements
 
-Your program must demonstrate a variety of capabilities and implement several
-different language features that, when combined, produce a result that cannot be
-easily accomplished without computing tools and techniques. Your program should
-draw upon mathematical and logical concepts, such as use of numbers, variables,
-mathematical expressions with arithmetic operators, logical and Boolean operators
-and expressions, decision statements, iteration, and/or collections.
-Your program must demonstrate:
+Your program must demonstrate a variety of capabilities and implement several different language features that, when combined, produce a result that cannot be easily accomplished without computing tools and techniques. Your program should draw upon mathematical and logical concepts, such as use of numbers, variables, mathematical expressions with arithmetic operators, logical and Boolean operators and expressions, decision statements, iteration, and/or collections.
 
-* Use of several effectively integrated mathematical and logical concepts, from the
-language you are using;
-* Implementation of an algorithm that integrates two or more algorithms and integrates
-mathematical and/or logical concepts; and
-* Development and use of abstractions to manage the complexity of your program
-(e.g., procedures, abstractions provided by the programming language, APIs).
+Your program must include the following: 
 
-## Example Programs
+- [ ] User input using any of the following sources
+        * User actions that trigger events (prompt, buttons, input fields, dropdown menu, etc)
+        * A file
+        * Online data stream
 
-[Scoring Commentary](https://secure-media.collegeboard.org/ap/pdf/ap18-csp-create.pdf)
+- [ ] Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose
 
-<u>Example A - Perfect</u>
+- [ ] At least one procedure that contributes to the program’s intended purpose where you have defined:
 
-* [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-a-video.mp4)
-* [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-a-written.pdf)
+        * the procedure’s name
+        * the return type (if necessary)
+        * one or more parameters
 
-<u>Example B - Perfect</u>
+- [ ] An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure 
 
-* [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-b-video.mp4)
-* [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-b-written.pdf)
+- [ ] Calls to your student-developed procedure
 
-<u>Example C - Almost Perfect</u>
+- [ ] Instructions for output (tactile, audible, visual, or textual) based on input and program functionality
 
-* [Video](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-c-video.mp4)
-* [Written Response](https://secure-media.collegeboard.org/ap/video_audio/ap18-create-sample-c-written.pdf)
+## Submitting your Create Task
 
-## Create task reflection
+- [ ] All program code must be submitted to GitHub and should include the following commentary, 
 
-[CreateTaskReflection.docx](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskReflection.docx)
+    * Thorough documentation of all parts of your code
+    * Citations for any code segements you did not develop
+    * Citations for any code segments you developed in collaboration with someone else
 
-## Screen cast of your program
+- [ ] A video demonstrating your program running must be submitted to College Board.  The video you submit must,  
 
-Create a 30 - 60 second screen cast of your program or a significant feature of your program.  Your recording MUST be a screen cast, not a video recorded of your screen using your phone or another device. I recommend the screencastify (or similar application)  
+    * Demonstrate input to your program
+    * Demonstrate at least one aspect of the functionality of your program
+    * Demonstrate output produced by your program 
+    * Be saved as .mp4, .wmv, .avi, or .mov format
+    * Be less than 1 minute
+    * Be less than 30 MB
+    * Your video MUST NOT include any distinguishing features - your voice, name, picture, etc.  
 
-https://www.screencastify.com
+- [ ] A pdf of your program code must be submitted to College Board
 
-## Grading Rubric
+- [ ] A pdf your your written responses must be submitted to College Board
 
-[CreateTaskRubric.pdf](https://github.com/hpluska/APCompSciPrincples/blob/master/CreateTask/CreateTaskRubric.pdf)
 
-## Submitting your project
 
-Before you submit your project, make sure it is the project you intend to submit for grading both by Ms. Pluska and the College Board - __Revisions on this project will NOT be accepted__. 
 
 __Your completed project must be submitted to College Board by April 30__.  This is the deadline imposed by the College Board, not Ms. Pluska.  
 
