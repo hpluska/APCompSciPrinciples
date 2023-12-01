@@ -1,10 +1,5 @@
-document.getElementById("sport").innerHTML = "Softball";
-
-document.getElementById("time").innerHTML = "3 years";
-
-document.getElementById("about").innerHTML = "Code";
-
-var p2 = document.getElementById("pet");
-p2.innerHTML = "Gecko";
+var x = document.createElement("h1");
+x.innerHTML = "HERE IS A HEADER";
+document.body.append(x);
 
 
