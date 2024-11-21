@@ -1,5 +1,4 @@
-var x = document.createElement("h1");
-x.innerHTML = "HERE IS A HEADER";
-document.body.append(x);
-
-
+var h = document.head;
+console.log(h);
+var someParagraph = document.getElementById("2")
+console.log(someParagraph);
