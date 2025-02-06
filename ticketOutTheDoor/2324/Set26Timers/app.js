@@ -1,6 +1,6 @@
-var gameTimer; 
-var timeLeft; 
-var score = 10; 
+// var gameTimer; 
+// var timeLeft; 
+// var score = 10; 
 // var gameTime = 15; 
 // gameTimer();
 // countDown();
@@ -95,7 +95,8 @@ function end(){
 
 var timeOut, timeLeft;
 var score = 10;
-var gameTime = 10;
+var gameTime = 11;
+
 
 gameTimer();
 countDown();
@@ -110,10 +111,15 @@ function countDown() {
 }
 function updateTime(){
      gameTime--;
-     document.body.innerHTML = gameTime;
+     document.body.innerHTML = (gameTime - 1);
 }
 
+
 function gameOver(){
- clearInterval(timeLeft);
- clearTimeout(timeOut);
+
+    clearInterval(timeLeft);
+    clearTimeout(timeOut);
+    alert("Game over")
 }
+
+

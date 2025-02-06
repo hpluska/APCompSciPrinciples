@@ -1,12 +1,19 @@
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
+console.log(Math.floor(Math.random()*10 - 5))
 
-
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
-console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
+// console.log(Math.floor(Math.random() * 60 - 50));
 
 
 //Exercise 23.1

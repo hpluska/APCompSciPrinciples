@@ -28,9 +28,9 @@ document.body.addEventListener("keydown", ballUp);
 document.body.addEventListener("keyup", ballDown);
 
 function ballUp(){
-    ball.style.top = position + "px"
+    ball.style.top = 270 + "px"
 }
 function ballDown(){
-    ball.style.top = position + "px"
+    ball.style.top = 570 + "px"
 }
 

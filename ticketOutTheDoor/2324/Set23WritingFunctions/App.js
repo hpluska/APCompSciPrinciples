@@ -1,38 +1,78 @@
-
-function drawTriangle(w, x, y, left, right, top, bottom) {
-    var triangle = document.createElement("div");
-    var width = w;
-    var xPos = x;
-    var yPos = y;
-    triangle.style.borderWidth = width + "px";
-    triangle.style.borderStyle = "solid";
-    triangle.style.borderColor = "black";
-    triangle.style.borderLeftColor = left;
-    triangle.style.borderRightColor = right;
-    triangle.style.borderTopColor = top;
-    triangle.style.borderBottomColor = bottom;
-    triangle.style.position = "absolute";
-    triangle.style.left = xPos + "px";
-    triangle.style.top = yPos + "px";
-    document.body.append(triangle);
-    return triangle;
+var list = "";
+function makeList(){
+    var item = prompt("add an item"); 
+     list = list + item + ","; 
 }
 
-var t = drawTriangle(200, 10, 10, "transparent", "transparent", "green", "transparent")
-t.innerHTML = "HELLO!"
-
-function drawCircle(size, x, y, c){
-    var circle = document.createElement("div");
-    circle.style.borderRadius = "50%";
-    circle.style.backgroundColor = c;
-    circle.style.width = size + "px";
-    circle.style.height = size + "px";
-    circle.style.position = "absolute";
-    circle.style.left = x + "px";
-    circle.style.top = y + "px";
-    document.body.append(circle)
+function displayList(){
+    var shoppingList = document.createElement("p");
+    shoppingList.innerHTML = list;
+    document.body.append(shoppingList);
 }
-drawCircle(100, 0, 0, "pink")
+
+makeList();
+makeList();
+makeList();
+makeList();
+makeList();
+displayList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function drawTriangle(w, x, y, left, right, top, bottom) {
+//     var triangle = document.createElement("div");
+//     var width = w;
+//     var xPos = x;
+//     var yPos = y;
+//     triangle.style.borderWidth = width + "px";
+//     triangle.style.borderStyle = "solid";
+//     triangle.style.borderColor = "black";
+//     triangle.style.borderLeftColor = left;
+//     triangle.style.borderRightColor = right;
+//     triangle.style.borderTopColor = top;
+//     triangle.style.borderBottomColor = bottom;
+//     triangle.style.position = "absolute";
+//     triangle.style.left = xPos + "px";
+//     triangle.style.top = yPos + "px";
+//     document.body.append(triangle);
+//     return triangle;
+// }
+
+// var t = drawTriangle(200, 10, 10, "transparent", "transparent", "green", "transparent")
+// t.innerHTML = "HELLO!"
+
+// function drawCircle(size, x, y, c){
+//     var circle = document.createElement("div");
+//     circle.style.borderRadius = "50%";
+//     circle.style.backgroundColor = c;
+//     circle.style.width = size + "px";
+//     circle.style.height = size + "px";
+//     circle.style.position = "absolute";
+//     circle.style.left = x + "px";
+//     circle.style.top = y + "px";
+//     document.body.append(circle)
+// }
+// drawCircle(100, 0, 0, "pink")
 
 
 

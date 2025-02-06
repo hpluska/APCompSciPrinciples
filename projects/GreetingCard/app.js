@@ -49,31 +49,38 @@ background.style.backgroundColor = "#77d7f2";//Sets the background to a shade of
 background.style.padding = "10px";//creates space between the elements and the outer edge 
 document.body.append(background); 
 background.append(text); 
-background.append(hat); 
+
 background.append(head);
+background.append(hat); 
 
 //Creats the text
-text.innerHTML = "Happy Holidays";
-text.style.color = "white";
-text.style.background = "black";
-text.style.width = "100%";
-text.style.textAlign = "center"
-text.style.fontSize = "3em";
-text.style.fontFamily ="cursive";
+// text.innerHTML = "Happy Holidays";
+// text.style.color = "white";
+// text.style.background = "black";
+// text.style.width = "100%";
+// text.style.textAlign = "center"
+// text.style.fontSize = "3em";
+// text.style.fontFamily ="cursive";
 
 //creates the hat
-hat.style.border = "transparent solid 25px";
-hat.style.width = "0px";
-hat.style.height = "0px";
-hat.style.borderBottom = "red solid 200px"
+hat.style.border = "red solid 50px"; 
+hat.style.width = "0px"; 
+hat.style.height = "0px"; 
+hat.style.borderLeftColor = "transparent"; 
+hat.style.borderRightColor = "transparent"; 
+hat.style.borderTopColor = "transparent"; 
+hat.style.borderBottomWidth = "200px" 
 hat.style.margin = "0 auto"
-hat.style.position = "relative"
-hat.style.top = "5px";
+hat.style.position = "relative";
+hat.style.top = "-100px"
 
 //creates the head
-head.style.borderRadius = "50%";
-head.style.width = "50px";
+
+head.style.borderRadius = "50%"
+head.style.width = "150px";
 head.style.height = "50px";
-head.style.margin = "0 auto";
-head.style.backgroundColor = "purple"
+head.style.backgroundColor = "tan";
+head.style.margin = "0 auto"
+head.style.position = "relative"
+head.style.top = "190px"
 

@@ -13,9 +13,11 @@
 // var combo = s + "" + x;
 // console.log(combo);//prints Was haben wir gemacht?17
 
-var theName = "Donald Duck";
-var len = theName.length;
-console.log(len);
+var name1 = "Donald Duck";
+console.log(name1.length);
+
+// var len = theName.length;
+// console.log(len);
 
 // var myPet = "Sparky the dog";
 // var smallPart = myPet.substring(4);

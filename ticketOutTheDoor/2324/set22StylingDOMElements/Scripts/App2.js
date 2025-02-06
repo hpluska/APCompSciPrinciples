@@ -1,25 +1,54 @@
-var div1 = document.getElementById("div1");
-div1.style.backgroundColor = "yellow"; 
-div1.style.borderRadius = "50%";
-div1.style.borderColor = "green";
-div1.style.borderStyle = "dashed";
-div1.style.borderWidth = "5em";
-div1.style.width = "200px";
-div1.style.height = "200px";
-div1.style.padding = "3em";
+// var e1 = document.getElementById("div1");
+// e1.style.backgroundColor = "yellow";
+// e1.style.width = "200px";
+// e1.style.height = "200px";
+// e1.style.borderWidth = "5em";
+// e1.style.borderStyle = "dashed";
+// e1.style.textAlign = "center";
+// e1.style.padding = "5em";
+// e1.style.borderRadius = "50%";
+// e1.style.borderColor = "green"
+// var e2 = document.getElementById("div2");
 
-var div2= document.getElementById("div2");
-div2.style.backgroundColor = "yellow"; 
-div2.style.borderRadius = "20%";
-div2.style.borderColor = "blue";
-div2.style.borderStyle = "solid";
-div2.style.borderWidth = "2em";
-div2.style.width = "200px";
-div2.style.height = "200px";
+// var e2 = document.getElementById("div2");
+// e2.style.backgroundColor = "yellow";
+// e2.style.width = "100px";
+// e2.style.height = "100px";
+// e2.style.borderWidth = "5em";
+// e2.style.borderStyle = "solid";
+// e2.style.textAlign = "center";
+// e2.style.padding = "5em";
+// e2.style.borderRadius = "20%";
+// e2.style.borderColor = "blue"
 
+//creates the elements
+var head = document.createElement("div");
+var leftEye = document.createElement("div");
+var rightEye = document.createElement("div");
+var nose = document.createElement("div");
+var mouth = document.createElement("div");
 
+//appends the elements to the page
+document.body.append(head);
+document.body.append(leftEye);
+document.body.append(rightEye);
+document.body.append(nose);
+document.body.append(mouth);
 
+//styles the head
+head.style.borderRadius = "50%";
+head.style.backgroundColor = "tan";
+head.style.width = "200px";
+head.style.height = "200px";
 
+//styles the left eye
+leftEye.style.borderRadius = "50%";
+leftEye.style.backgroundColor = "green";
+leftEye.style.width = "25px";
+leftEye.style.height = "15px";
+leftEye.style.position = "absolute";//REQUIRED
+leftEye.style.top = "75px";
+leftEye.style.left = "50px";
 
 
 
