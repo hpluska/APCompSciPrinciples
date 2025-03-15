@@ -50,3 +50,12 @@ function getValue(){
 // var houses = ["Bugs", "Marvin"];
 // houses.splice(2, 0, "Kyle", "Stan");
 // console.log(houses);
+
+var nums = [];
+nums.push(1);
+nums.push(2);
+nums.push(3);
+nums.push(5);
+
+nums.pop();
+console.log(nums);
