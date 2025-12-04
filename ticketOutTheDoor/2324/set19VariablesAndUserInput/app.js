@@ -1,6 +1,8 @@
-var class = 50;
+var num1 = prompt("Give me a number");
+var num2 = prompt("Give me another number");
 
 
+console.log("The difference is " + num1 + num2)
 
 
 // var age = prompt("How old are you?");

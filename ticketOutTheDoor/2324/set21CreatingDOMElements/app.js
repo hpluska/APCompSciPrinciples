@@ -1,9 +1,31 @@
-var image = document.createElement("img");
-image.src = "cat.webp";
-image.alt = "Cat"
-image.setAttribute("width", "200px");
+var anotherParagraph = document.createElement("p")
 
-document.body.append(image)
+anotherParagraph.innerHTML = "HELLO!"
+
+anotherParagraph.id = "p2"
+
+document.body.append(anotherParagraph)
+anotherParagraph.remove()
+
+
+
+
+// var e = document.createElement("h1");
+// e.innerHTML = "Get here x mas break"
+// document.body.append(e)
+// e.id = "some id"
+// document.getElementById("some id").innerHTML = "CHANGE"
+// e.remove()
+// document.body.append(e)
+// e.hidden = false
+
+
+// var image = document.createElement("img");
+// image.src = "cat.webp";
+// image.alt = "Cat"
+// image.setAttribute("width", "200px");
+
+// document.body.append(image)
 
 
 
