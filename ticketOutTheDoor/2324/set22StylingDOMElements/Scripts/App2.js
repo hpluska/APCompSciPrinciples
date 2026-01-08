@@ -1,3 +1,72 @@
+var head = document.createElement("div");
+var leftEye = document.createElement("div");
+var rightEye = document.createElement("div");
+var nose = document.createElement("div");
+var mouth = document.createElement("div");
+
+document.body.append(head)
+document.body.append(leftEye)
+document.body.append(rightEye)
+document.body.append(nose)
+
+
+head.style.height = "200px"
+head.style.width = "200px"
+head.style.backgroundColor = "tan"
+head.style.borderRadius = "50%"
+
+leftEye.style.height = "20px"
+leftEye.style.width = "20px"
+leftEye.style.backgroundColor = "green"
+leftEye.style.borderRadius = "50%"
+leftEye.style.position = "absolute"
+leftEye.style.top = "75px"
+leftEye.style.left = "75px"
+
+
+rightEye.style.height = "20px"
+rightEye.style.width = "20px"
+rightEye.style.backgroundColor = "green"
+rightEye.style.borderRadius = "50%"
+rightEye.style.position = "absolute"
+rightEye.style.top = "70px"
+rightEye.style.left = "130px"
+
+nose.style.backgroundColor = "yellow"
+nose.style.borderRadius = "20%"
+nose.style.width = "20px"
+nose.style.height = "50px"
+nose.style.position = "absolute"
+nose.style.top = "85px"
+nose.style.left = "100px"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var e1 = document.getElementById("div1");
 // e1.style.backgroundColor = "yellow";
 // e1.style.width = "200px";
@@ -21,34 +90,34 @@
 // e2.style.borderRadius = "20%";
 // e2.style.borderColor = "blue"
 
-//creates the elements
-var head = document.createElement("div");
-var leftEye = document.createElement("div");
-var rightEye = document.createElement("div");
-var nose = document.createElement("div");
-var mouth = document.createElement("div");
+// //creates the elements
+// var head = document.createElement("div");
+// var leftEye = document.createElement("div");
+// var rightEye = document.createElement("div");
+// var nose = document.createElement("div");
+// var mouth = document.createElement("div");
 
-//appends the elements to the page
-document.body.append(head);
-document.body.append(leftEye);
-document.body.append(rightEye);
-document.body.append(nose);
-document.body.append(mouth);
+// //appends the elements to the page
+// document.body.append(head);
+// document.body.append(leftEye);
+// document.body.append(rightEye);
+// document.body.append(nose);
+// document.body.append(mouth);
 
-//styles the head
-head.style.borderRadius = "50%";
-head.style.backgroundColor = "tan";
-head.style.width = "200px";
-head.style.height = "200px";
+// //styles the head
+// head.style.borderRadius = "50%";
+// head.style.backgroundColor = "tan";
+// head.style.width = "200px";
+// head.style.height = "200px";
 
-//styles the left eye
-leftEye.style.borderRadius = "50%";
-leftEye.style.backgroundColor = "green";
-leftEye.style.width = "25px";
-leftEye.style.height = "15px";
-leftEye.style.position = "absolute";//REQUIRED
-leftEye.style.top = "75px";
-leftEye.style.left = "50px";
+// //styles the left eye
+// leftEye.style.borderRadius = "50%";
+// leftEye.style.backgroundColor = "green";
+// leftEye.style.width = "25px";
+// leftEye.style.height = "15px";
+// leftEye.style.position = "absolute";//REQUIRED
+// leftEye.style.top = "75px";
+// leftEye.style.left = "50px";
 
 
 

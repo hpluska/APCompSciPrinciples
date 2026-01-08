@@ -12,20 +12,20 @@ h1{
     font-size: 2em;
     color:#3e432e;
     border-bottom: solid 2px #f8b500;
-    width:25%;
+    width:80%;
     /*border-radius: 20px;*/
     padding:10px;
     z-index:0;
 
 }
 
-#tedTalks, #contact, #projects, #tutorials{
+#contact, #projects, #tutorials, #notes{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#f7f7f7;
 	padding-top:290px;
 }
-#home, #labs, #reviewsAndSolutions, #portfolio, #dailyTasks{
+#home, #labs, #articlereflections{
 	min-height:100%;
 	/*border:solid 1px black;*/
 	background-color:#caccce;

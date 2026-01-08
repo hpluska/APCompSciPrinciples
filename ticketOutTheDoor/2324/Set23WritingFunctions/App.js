@@ -1,22 +1,67 @@
-var list = "";
-function makeList(){
-    var item = prompt("add an item"); 
-     list = list + item + ","; 
+function drawSquare(dim, x, y, c){
+    var square = document.createElement("div"); 
+    var dimensions = dim; 
+    var xPos = x; 
+    var yPos = y; 
+    square.style.width = dimensions + "px"; 
+    square.style.height = dimensions + "px"; 
+    square.style.border = "thick solid #0000FF"; 
+    square.style.borderColor = c;
+    square.style.position = "absolute"; 
+    square.style.left = xPos + "px"; 
+    square.style.top = yPos + "px"; 
+    document.body.append(square); 
+    return square;
+}
+// // var s = drawSquare(400, 0, 0, "red")
+// // s.innerHTML = "HELLO"
+// square = drawSquare(200, 0, 0)
+
+// square.innerHTML = "HELLO!"
+
+
+// var list = "";
+// function makeList(){
+//     var item = prompt("add an item"); 
+//      list = list + item + ","; 
+// }
+
+// function displayList(){
+//     var shoppingList = document.createElement("p");
+//     shoppingList.innerHTML = list;
+//     document.body.append(shoppingList);
+// }
+
+// makeList();
+// makeList();
+// makeList();
+// makeList();
+// makeList();
+// displayList();
+
+
+function drawTriangle(w, x, y, lb, rb, tb, bb) {
+
+    var triangle = document.createElement("div");
+    var width = w
+    var xPos = x
+    var yPos = y
+    triangle.style.borderWidth = width + "px";
+    triangle.style.borderStyle = "solid";
+    triangle.style.borderColor = "black";
+    triangle.style.borderLeftColor = lb
+    triangle.style.borderRightColor = rb;
+    triangle.style.borderTopColor = tb;
+    triangle.style.borderBottomColor = bb
+    triangle.style.position = "absolute";
+    triangle.style.left = xPos + "px";
+    triangle.style.top = yPos + "px";
+    document.body.append(triangle);
+    return triangle
+
 }
 
-function displayList(){
-    var shoppingList = document.createElement("p");
-    shoppingList.innerHTML = list;
-    document.body.append(shoppingList);
-}
-
-makeList();
-makeList();
-makeList();
-makeList();
-makeList();
-displayList();
-
+var t = drawTriangle(200, 0, 0, "blue", "red", "green", "yellow")
 
 
 
