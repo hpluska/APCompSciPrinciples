@@ -62,10 +62,13 @@ function closed(){
     unlockButton.style.backgroundColor = "lightGrey";
     lockButton.style.backgroundColor = "pink";
     closeDoor();
-    door.removeEventListener('click', openDoor);
+    //TODO: Remove the click event listener openDoor from the door
+    // door.removeEventListener('click', openDoor);
 }
   
 unlockButton.addEventListener('click', open);
 lockButton.addEventListener('click', closed);
-monster.addEventListener("click", closeDoor);
+
+//TODO: Add an event listener to monster to close the door
+// monster.addEventListener("click", closeDoor);
   
