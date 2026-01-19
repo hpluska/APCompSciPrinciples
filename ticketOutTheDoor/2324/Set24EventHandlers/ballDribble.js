@@ -24,13 +24,16 @@ ball.style.left = "125px";
 ball.style.backgroundColor = "yellow";
 gameDiv.append(ball);
 
-document.body.addEventListener("keydown", ballUp);
-document.body.addEventListener("keyup", ballDown);
+// document.body.addEventListener("keydown", ballUp);
+// document.body.addEventListener("keyup", ballDown);
 
-function ballUp(){
-    ball.style.top = 270 + "px"
-}
-function ballDown(){
-    ball.style.top = 570 + "px"
-}
+// function ballUp(e){
+//     console.log(e.key)
+//     ball.style.top = 270 + "px"
+// }
+// function ballDown(){
+//     ball.style.top = 570 + "px"
+// }
+
+
 

@@ -1,6 +1,5 @@
 var dim = 100;
-// var clicks = 0;
-var score = 0;
+var clicks = 0;
 
 function makeButton(d, xPos, yPos, id){ 
     var b = document.createElement("button"); 
@@ -18,19 +17,19 @@ function makeButton(d, xPos, yPos, id){
 }
 // 
 function check(e){
-    //console.log(e.target.id)
-    score = score + 1;
+    clicks++;
 }
 
 function makeMonster(){
-     var monsterButton = document.getElementById("8");
-    monsterButton.addEventListener("click", found);
+    var loc = Math.floor(Math.random() * 10)
+    document.getElementById(loc).addEventListener("click", found);
 }
 
 function found(e){
-    var foundButton = e.target.id;
-    document.getElementById(foundButton).style.backgroundColor = "red"
-    alert("GAME OVER! You found the monster in " + score + " clicks!");
+    monster = e.target.id;
+    document.getElementById(monster).style.backgroundColor = "red"
+    //alert("Game over! You found the monster in " + clicks + " clicks!")
+    document.getElementById(monster).innerHTML = "GAME OVER! \n " + clicks
 }
 
 var b0 = makeButton(dim, dim*0, dim*0, 0);
@@ -43,4 +42,6 @@ var b6 = makeButton(dim, dim*1, dim*1, 6);
 var b7 = makeButton(dim, dim*2, dim*1, 7);
 var b8 = makeButton(dim, dim*3, dim*1, 8);
 var b9 = makeButton(dim, dim*4, dim*1, 9);
+
+
 makeMonster();

@@ -36,30 +36,45 @@ Exercise 2
 
 
 
-// var exercise2 = document.createElement("div");
-// exercise2.style.margin = "20px";
-// exercise2.style.padding = "5px";
-// exercise2.style.backgroundColor = "black";
-// exercise2.style.width = "200px";
-// document.body.append(exercise2);
-// var readMoreButton = document.createElement("button");
-// readMoreButton.innerHTML = "Read more"
-// exercise2.append(readMoreButton);
+// var contentContainer = document.createElement("div");
+// contentContainer.style.backgroundColor = "black";
+// contentContainer.style.width = "200px";
+// document.body.append(contentContainer);
 
 // var content = document.createElement("div");
 // content.innerHTML = "JavaScript is a programming language of the web.  You can use it to add dynamic behavior and store information."
- 
+// content.style.backgroundColor = "red";
+// contentContainer.append(content);
 
-// function changeButtonText(){
-//     readMoreButton.innerHTML = "Read Less"
+// var readMoreButton = document.createElement("button");
+// readMoreButton.innerHTML = "Read More";
+// contentContainer.append(readMoreButton);
+
+// readMoreButton.onclick = readMore
+
+// function readMore(){
+//     content.append('MORE STUFF')
 // }
 
 
 // readMoreButton.addEventListener("click", addMoreText);
 
+// function addMoreText(){
+//     content.append("MORE TEXT")
+//     readMoreButton.removeEventListener("click", addMoreText)
 
-//readMoreButton.addEventListener("click", changeContent);
- //readMoreButton.addEventListener("click", readLess);
+// }
+
+// readMoreButton.addEventListener("click", changeButton);
+
+// function changeButton(){
+//     readMoreButton.innerHTML = "Read less"
+
+// }
+
+
+
+
 
 //  function changeContent(){
 //      var moreText = document.createElement("p");
@@ -158,35 +173,36 @@ Exercise 4
   Exercise 5
   */
  
-var width = 200;
-var height = 200;
-var moreInfo = document.createElement("div");
-moreInfo.innerHTML = "JavaScript can also handle requests and responses on a website. It's a great language to master for front-end and back-end web development.";
-moreInfo.style.width = width + "px";
-moreInfo.style.height = height + "px";
-moreInfo.style.backgroundColor = "red";
-moreInfo.style.textAlign = "center";
-moreInfo.style.padding = "10px";
-moreInfo.style.margin="10px";
-document.body.append(moreInfo);
+// var width = 200;
+// var height = 200;
+// var moreInfo = document.createElement("div");
+// moreInfo.innerHTML = "JavaScript can also handle requests and responses on a website. It's a great language to master for front-end and back-end web development.";
+// moreInfo.style.width = width + "px";
+// moreInfo.style.height = height + "px";
+// moreInfo.style.backgroundColor = "red";
+// moreInfo.style.textAlign = "center";
+// moreInfo.style.padding = "10px";
+// moreInfo.style.margin="10px";
+// document.body.append(moreInfo);
 
-moreInfo.addEventListener('mouseover', changeBackgroundIn);
-moreInfo.addEventListener('mouseout', changeBackgroundOut);
-moreInfo.addEventListener('wheel',changeText);
+// moreInfo.addEventListener('mouseover', changeBackgroundIn);
+// moreInfo.addEventListener('mouseout', changeBackgroundOut);
+// moreInfo.addEventListener('wheel',changeText);
 
-function changeBackgroundIn(){
-    moreInfo.style.backgroundColor = "yellow";
-}
+// function changeBackgroundIn(){
+//     moreInfo.style.backgroundColor = "yellow";
+// }
 
-function changeBackgroundOut(){
-    moreInfo.style.backgroundColor = "red";
-    moreInfo.style.width = "800px";
-    moreInfo.innerHTML = "You left!"
-}
+// function changeBackgroundOut(){
+//     moreInfo.style.backgroundColor = "red";
+//     moreInfo.style.width = "800px";
+//     moreInfo.innerHTML = "You left!"
+// }
 
-function changeText(){
-    moreInfo.innerHTML = "Stop wheeling!";
-}
+// function changeText(){
+//     moreInfo.innerHTML = "Stop wheeling!";
+//     moreInfo.style.borderRadius = "50%"
+// }
  
 
 // //creates a simple div
