@@ -95,24 +95,23 @@ function end(){
 
 var timeOut, timeLeft;
 var score = 10;
-var gameTime = 11;
+var gameTime = 10;
 
-
-gameTimer();
-countDown();
-
-function gameTimer(){
-    timeOut = setTimeout(gameOver, gameTime*1000);//after 10 seconds
+function updateTime(){
+     gameTime--;
+     document.body.innerHTML = gameTime;
 }
 
 function countDown() {
      timeLeft = setInterval(updateTime, 1000);
 
 }
-function updateTime(){
-     gameTime--;
-     document.body.innerHTML = (gameTime - 1);
-}
+countDown()
+gameTimer()
+
+function gameTimer(){ 
+  gameTimer = setTimeout(gameOver, gameTime*1000); 
+} 
 
 
 function gameOver(){
