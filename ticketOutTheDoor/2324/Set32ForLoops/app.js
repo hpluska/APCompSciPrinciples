@@ -1,5 +1,9 @@
 
-var j = 0; for(var g = 0; g < 5; g++){ j++; } console.log(j);
+var j = 0; 
+for(var g = 0; g < 5; g++){ 
+    j++; 
+} 
+console.log(j);
 
 
 /*
